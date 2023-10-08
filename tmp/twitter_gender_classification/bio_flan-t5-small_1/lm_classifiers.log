@@ -1,0 +1,47 @@
+2023-10-08 22:42:48 [lm_classifiers] Running on CPU device...
+2023-10-08 22:42:52 [lm_classifiers] Encoded labels: 
+tensor([[5069,    1],
+        [3955,    1]])
+2023-10-08 22:42:52 [lm_classifiers] Maximum length of the encoded labels: 2
+2023-10-08 22:42:52 [lm_classifiers] Classify the gender of the tweeter user with the following bio:
+"""
+ Bio: Con le ruote per terra . Sentire il mio passo sul sentiero. I Dispersi ed.Falsopiano. Movimento per 21 pianoforti. Capulcu, Voices from Gezi. insolitocinema.it. 
+"""
+Gender:
+2023-10-08 22:43:13 [lm_classifiers] Processed 100 sentences
+2023-10-08 22:43:26 [lm_classifiers] Processed 200 sentences
+2023-10-08 22:43:40 [lm_classifiers] Processed 300 sentences
+2023-10-08 22:43:49 [lm_classifiers] Processed 400 sentences
+2023-10-08 22:43:59 [lm_classifiers] Processed 500 sentences
+2023-10-08 22:44:07 [lm_classifiers] Processed 600 sentences
+2023-10-08 22:44:14 [lm_classifiers] Processed 700 sentences
+2023-10-08 22:44:20 [lm_classifiers] Processed 800 sentences
+2023-10-08 22:44:28 [lm_classifiers] Processed 900 sentences
+2023-10-08 22:44:35 [lm_classifiers] Processed 1000 sentences
+2023-10-08 22:44:42 [lm_classifiers] Processed 1100 sentences
+2023-10-08 22:44:44 [lm_classifiers] Retrieving predictions...
+2023-10-08 22:44:44 [lm_classifiers] Counter({'male': 1137})
+2023-10-08 22:44:44 [lm_classifiers] Evaluating predictions...
+2023-10-08 22:44:44 [lm_classifiers] 
+                                              prompt prediction    gold
+0  Classify the gender of the tweeter user with t...       male    male
+1  Classify the gender of the tweeter user with t...       male  female
+2  Classify the gender of the tweeter user with t...       male  female
+3  Classify the gender of the tweeter user with t...       male  female
+4  Classify the gender of the tweeter user with t...       male    male
+
+2023-10-08 22:44:44 [lm_classifiers] KAPPA:
+        gold  model
+gold   100.0    0.0
+model    0.0  100.0
+
+2023-10-08 22:44:44 [lm_classifiers] ACCURACY:
+         gold   model
+gold   100.00   64.47
+model   64.47  100.00
+
+2023-10-08 22:44:44 [lm_classifiers] F1:
+        gold  model
+gold   100.0   39.2
+model   39.2  100.0
+

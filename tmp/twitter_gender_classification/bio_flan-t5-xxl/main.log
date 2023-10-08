@@ -1,0 +1,4 @@
+2023-10-08 23:17:44 [main] Working on tmp/twitter_gender_classification/bio_flan-t5-xxl
+2023-10-08 23:27:25 [main] Generating raw predictions.
+2023-10-08 23:29:50 [main] Gold labels found. Evaluating predictions.
+2023-10-08 23:29:50 [main] Done!

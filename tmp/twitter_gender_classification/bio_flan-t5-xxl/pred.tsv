@@ -1,0 +1,5686 @@
+	prompt	prediction	gold
+0	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Con le ruote per terra . Sentire il mio passo sul sentiero. I Dispersi ed.Falsopiano. Movimento per 21 pianoforti. Capulcu, Voices from Gezi. insolitocinema.it. 
+""""""
+Gender:"	male	male
+1	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Quello che gli altri pensano della tua persona dice molto su di loro ma niente su di te. 
+""""""
+Gender:"	male	female
+2	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Love me? Great. Hate me? Even better. Think I'm ugly? Don't look at me. Don' know me? Don' judge me. Think you know me? You have no idea... 
+""""""
+Gender:"	male	female
+3	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Sii il cambiamento che vuoi vedere nel mondo Mahatma Gandhi. 
+""""""
+Gender:"	male	female
+4	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: at home I feel like a tourist. 
+""""""
+Gender:"	male	male
+5	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Digital Life Coach - yourDigital // 26yo, 10k connections, 150k miles/yr // Cyclist // Forbes 30under30. 
+""""""
+Gender:"	male	male
+6	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Autore di 5 libri su innovazione e comunicazione - Anchorman/speaker ad eventi, docente universitario, creator, divulgatore - Lettore e gamer entusiasta. 
+""""""
+Gender:"	male	male
+7	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: I want to build intelligent machines. 
+""""""
+Gender:"	male	male
+8	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Opinions are mine, tweets Twitter's. 
+""""""
+Gender:"	male	male
+9	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+10	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+11	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+12	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: ⚓ Italy ['88] Student | Project Engineer | StreetView Photographer | Traveller | Cocker | ex Dj & PR. 
+""""""
+Gender:"	male	male
+13	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+14	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 📍Milano / Roma | Fotografa | Una passione irrefrenabile per l’autoritrattistica in toilette. 
+""""""
+Gender:"	male	female
+15	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Galletto romagnolo alla scoperta del mondo. 
+""""""
+Gender:"	male	male
+16	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+17	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: imprenditrice, internet, media e famiglia: insomma un bel divertimento! 
+""""""
+Gender:"	male	female
+18	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+19	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+20	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+21	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Leggere fra le righe di una politica che non parla chiaro. 
+""""""
+Gender:"	male	male
+22	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+23	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Ho tre tatuaggi, due gatti, sessanta piante. Rido molto e non mi piace il caffè · 📷 Instagram: personecheleggono. 
+""""""
+Gender:"	male	female
+24	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+25	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: precaria, a tratti disoccupata. 
+""""""
+Gender:"	male	female
+26	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+27	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Da grande metterò assieme tutti gli studi di cultura pop che sto conducendo da 26 anni per fare fighissimi commercial pepsi.. http://t.co/dKw12lFboP. 
+""""""
+Gender:"	male	female
+28	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+29	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+30	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+31	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 自由. 
+""""""
+Gender:"	male	female
+32	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Medico, Procrastinatore inguaribile, Sinistroide Democratico, Sognatore Lucano. Non sono 33, sono 25+IVA ! 
+""""""
+Gender:"	male	male
+33	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: .. E allora molla gli ormeggi. Lascia i porti sicuri. Lascia che gli alisei riempiano le tue vele. Esplora. Sogna. 
+""""""
+Gender:"	male	male
+34	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+35	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: She/her 🏳️‍🌈 Nerd fitgirl wannabe based in Milan ~ ~ 不经历风雨怎么见彩虹?! 
+""""""
+Gender:"	male	female
+36	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: @CityUniLondon alumnus, @frontlineclub member, @agenzia_Ansa's European correspondent. Formerly in London and Moscow. Latest book: https://t.co/lWm4k7ksfA. 
+""""""
+Gender:"	male	male
+37	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+38	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Graduated in foreign languages and communications. Feeling feelings since 1988. 
+""""""
+Gender:"	male	female
+39	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+40	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Guardo il mondo e le persone dal mio personalissimo punto di vista e cerco di capire il perché di tutto quello che mi succede intorno. 
+""""""
+Gender:"	male	female
+41	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 1-💣 🇷🇺 Putin 🤢🤮 2- 🇨🇳 allergic to CCP 3-🤔 Grazie a dio non credo in dio, ma prego dio che esista un Dio 4- 😀Eutanasia legale !! 5-💉ProVax 6-❌ Renziani. 
+""""""
+Gender:"	male	male
+42	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: From Florence to Turin.. Amante del giornalismo di qualità e buongustaio. 
+""""""
+Gender:"	male	male
+43	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Continuerò sempre a credere che tra bufalo e locomotiva, dovrebbe vincere il bufalo. 
+""""""
+Gender:"	male	female
+44	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+45	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Knowledge modelling consultant in digital era.. Curious that life takes me along the ""sanset avenue"" to the rebellion that, in my youth, was barely touch. 
+""""""
+Gender:"	male	male
+46	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+47	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 3 libri di poesie . Giornalista ex Radio Deejay, ex Radio Capital. Interessi: libri, teatro. 
+""""""
+Gender:"	male	male
+48	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+49	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Da piccolissimo, dissi a mia mamma: “Mamma, voglio diventare il Presidente della Repubblica”. Amo la politica, più di ogni altra cosa. 
+""""""
+Gender:"	male	male
+50	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Acro and aerial enthusiast 🎪 loving Spain&South America, sleeping, drawing and silly things. 
+""""""
+Gender:"	male	female
+51	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+52	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 🌍 Trapani - Sicily - Italy . 📰 Journalist  . 💻 Communication . 🏀 Basketball . 📻 Radio. 💻 Nerd. 
+""""""
+Gender:"	male	male
+53	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+54	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Leone, ascendente Leone. 
+""""""
+Gender:"	male	female
+55	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Italian gal, shopaholic, travel, fashion and music addicted and life lover. Oasis fan since 1995. 
+""""""
+Gender:"	male	female
+56	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Padre. Marito Innamorato. Sportivo assatanato. 
+""""""
+Gender:"	male	male
+57	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Presidente Commissione #Sicurezza & #Commercio @ComuneMi #Municipio5 | #Marketing & #Communication Director @ComStrategy https://t.co/nTPv2uqRo4. 
+""""""
+Gender:"	male	male
+58	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: opinionista sportiva in tv, ho esperienze di teatro e di vita. Sto studiando per diventare ministro di Dio. 
+""""""
+Gender:"	male	female
+59	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Leggo Bodas de sangre, bevo un gin tonic. C’é una finestra che lascia entrare molta luce. Suona Entre dos aguas. Sogno a sud. 
+""""""
+Gender:"	male	female
+60	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+61	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+62	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Alla costante ricerca di storie da raccontare. https://t.co/xhYPWmyVJ0. 
+""""""
+Gender:"	male	male
+63	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+64	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Alumnus @Unibocconi, @TilburgU and @RagnidiLecco | Investment Banking and outdoors. 
+""""""
+Gender:"	male	male
+65	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+66	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Romano e romanista, cristiano-peccatore. Nel tempo libero, Medico del Lavoro. 
+""""""
+Gender:"	male	male
+67	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+68	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: disc jockey - author and producer radio programs - since 1984. 
+""""""
+Gender:"	male	male
+69	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Fìglio di Cesare, Nonno di Cesare. 
+""""""
+Gender:"	male	male
+70	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Insieme su Radio JukeBox dalle 10 alle 15 In tv PrimAntenna Lun ven 7/9 e alle 19 -  Radio JukeBox Tv canale 92 in Piemonte https://t.co/K8rqDlKIso. 
+""""""
+Gender:"	male	male
+71	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+72	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: ...Considero valore tacere in tempo, accorrere a un grido, chiedere permesso prima di sedersi, provare gratitudine senza ricordare di che... 
+""""""
+Gender:"	male	male
+73	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Mac make up artist. 
+""""""
+Gender:"	male	female
+74	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+75	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Food Journalist, life storyteller and contributor for Linkiesta Gastronomika, DeAbyDay, Agrodolce. 
+""""""
+Gender:"	male	female
+76	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+77	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+78	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+79	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+80	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Peak performance leader. 
+""""""
+Gender:"	male	male
+81	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Nobody said it was easy | I want to be Original. 
+""""""
+Gender:"	male	female
+82	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Bionda senza averne l'aria. https://t.co/u5JjPyw4Pu. 
+""""""
+Gender:"	male	female
+83	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Apprendista papa'. 
+""""""
+Gender:"	male	male
+84	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Law graduate 🎓 European Law PhD 🇪🇺 Love travelling 🌍. 
+""""""
+Gender:"	male	female
+85	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Giornalista. 
+""""""
+Gender:"	male	male
+86	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Docente di recitazione, attore, scrittore, autore, filosofo, giornalista freelance. 
+""""""
+Gender:"	male	male
+87	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Mamma, moglie, e digital marketing in AIRC. Non sopporto i carciofi, gli allegati alle email, i vocali di Whatsapp. Mi piace osservare le scarpe della gente. 
+""""""
+Gender:"	male	female
+88	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: #pedalognigiorno. 
+""""""
+Gender:"	male	male
+89	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+90	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Giornalista, copywriter e storyteller. Marito di Serena, papà di Elettra, su Twitter parlo quasi solo di Toro. 
+""""""
+Gender:"	male	male
+91	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 32 years old, Business Development E-mobility, liberal #sports & #books lover / #socialmedia & #newtech addicted / #emobility. 
+""""""
+Gender:"	male	male
+92	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Altezza 1.75, calvo , labbra sottili. Giornalista, scrittore a tempo perso, amante della musica e  lettura. Parla 4 lingue. Spiritoso,  ironico, autoironico. 
+""""""
+Gender:"	male	male
+93	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+94	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+95	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Amante del calcio e odio le telecronache di Caressa! 
+""""""
+Gender:"	male	male
+96	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Sono stato scomunicato ma non sono poi così cattivo. 
+""""""
+Gender:"	male	male
+97	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Mi occupo di sistemi informativi e sicurezza informatica da 20 anni. 
+""""""
+Gender:"	male	male
+98	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Aperte le iscrizioni ai SOGGIORNI PER ANZIANI con assistenza nelle valli bergamasche. vai al sito http://t.co/6yvtIre1A2. 
+""""""
+Gender:"	male	male
+99	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Ingegnere informatico ed esperto in Business Development, Business Processes e... tanta praticità ;). 
+""""""
+Gender:"	male	male
+100	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Scrivo, rido, leggo, amo molto. Lo Yoga è ciò che più mi rende libera. Web strategist per @titanka_spa. 
+""""""
+Gender:"	male	female
+101	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+102	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: I wish I was like you. Easily amused. 
+""""""
+Gender:"	male	male
+103	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: male, italian, leftwing, teacher, cinephile https://t.co/WoBWweGeHU, insta: @mirkosalvini73. 
+""""""
+Gender:"	male	male
+104	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+105	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+106	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Algebra Prof @ Trento University, Italy. Tea lover (aren't the coasters on my profile lovely?). . There's only so much information you can pack into a small space. 
+""""""
+Gender:"	male	male
+107	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+108	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Le foto nei bagni delle discoteche sono simbolo del declino della civiltà. 
+""""""
+Gender:"	male	male
+109	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: “Quello che giova al nemico🇪🇺, nuoce a te🇮🇹, e quello che giova a te nuoce al nemico” (Niccolò Machiavelli). . #facciamorete 🇪🇺 = Blocco istantaneo. 
+""""""
+Gender:"	male	male
+110	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Le armi da guerra non presuppongono coraggio ma buona mira. Jorge Luis Borges. 
+""""""
+Gender:"	male	female
+111	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: mi piaccio, mi condivido, mi seguo, mi aggiorno, mi notifico... e nel frattempo lavoro e sorrido :). 
+""""""
+Gender:"	male	female
+112	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+113	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Marketing Graduated | Research Analyst on Innovation Insights at Nielsen BASES |. 
+""""""
+Gender:"	male	male
+114	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+115	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Cogli l'attimo. 
+""""""
+Gender:"	male	female
+116	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+117	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Sports and technologies addicted. 
+""""""
+Gender:"	male	male
+118	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Dignità, Dovere, Divertimento. 
+""""""
+Gender:"	male	male
+119	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+120	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+121	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Giornalista del Corriere della Sera. Ho scritto «Portami dove sei nata», Bompiani | https://t.co/9N2QndDDNH | https://t.co/v2Lm7Bxgm1 | 📩 rscorranese@corriere.it. 
+""""""
+Gender:"	male	female
+122	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+123	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+124	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+125	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 39 anni, tutti dalla parte giusta: curva Scirea. 
+""""""
+Gender:"	male	female
+126	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: teacher. 
+""""""
+Gender:"	male	female
+127	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 28 anni. Consigliera comunale a Modena e lavoratrice precaria. 
+""""""
+Gender:"	male	female
+128	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: They will not force us. They will stop degrading us. They will not control us. We will be victorious. 
+""""""
+Gender:"	male	male
+129	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+130	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: tra lavoro e week-end mi mantengo giovane, pazza e ... bionda. Per il resto pr e ufficio stampa di 'cose serie', ma su twitter amo commentare i programmi trash! 
+""""""
+Gender:"	male	female
+131	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 28 | Student | Passionate about photography, jazz music and technology.. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~. Instagram: https://t.co/eMQ39L93mn. 
+""""""
+Gender:"	male	male
+132	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+133	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+134	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: tecnico sicurity. 
+""""""
+Gender:"	male	male
+135	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: La mia fava mi precede. 
+""""""
+Gender:"	male	male
+136	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Studente,Runner,Giocatore incallito di Burraco. 
+""""""
+Gender:"	male	male
+137	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+138	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+139	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Scrivo storie. Amo i libri, la montagna. 
+""""""
+Gender:"	male	female
+140	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Professor of Tax law. Reluctantly Italian. 
+""""""
+Gender:"	male	male
+141	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: #bmth #catslover #videogames #starwars #books #longboard #nursestudent #loveislove. 
+""""""
+Gender:"	male	female
+142	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: There's a starman waiting in the sky.              Facoltà di Architettura. 
+""""""
+Gender:"	male	female
+143	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+144	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Homo sum, humani nihil a me alienum puto. 
+""""""
+Gender:"	male	male
+145	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+146	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+147	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Cuoca, docente, foodteller. Cucino cose e racconto gente, che essere buoni c’è più gusto. #aifb #apci. 
+""""""
+Gender:"	male	female
+148	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Interista al 100%. 
+""""""
+Gender:"	male	male
+149	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: #JusticeForJohnnyDepp. Pooh, Music, Harry Melling, Dane DeHaan, Merlin, HP, ff Drarry, slash, books ♥ My dream is go to live in Germany (or Spain). 
+""""""
+Gender:"	male	female
+150	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: MD-ORL;ePlayer;Tech-Addicted. 
+""""""
+Gender:"	male	male
+151	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Proud Italian abroad. Trying to make the world a better place to live in. 
+""""""
+Gender:"	male	female
+152	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: ''F di felicita' e fortuna''. 
+""""""
+Gender:"	male	male
+153	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: I'm Alessia, 16, italian! http://t.co/HFOXUwXf3x. 
+""""""
+Gender:"	male	female
+154	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+155	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: senza memoria, per svegliarsi ogni giorno con un discreto umore. 
+""""""
+Gender:"	male	female
+156	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Cambio spesso idea. Anzi no. 
+""""""
+Gender:"	male	female
+157	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Consultant. Instant capturer. Fond of innovation, art and solidarity. Fan of Milton Erickson. Loving books, food and the world in general. 
+""""""
+Gender:"	male	female
+158	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Whatever you do in life will be insignificant but it's very important that you do it 'cause...nobody else will. 
+""""""
+Gender:"	male	female
+159	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+160	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Giornalista Rai. Oristanese di mamma emiliana residente a Milano. Nomade in odore di stanzialità. 
+""""""
+Gender:"	male	female
+161	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Hi all, I am a young, cheerful and fun solar, do the actor and my dream is to work for the movies to the U.S.A. and I know that one day I will. 
+""""""
+Gender:"	male	male
+162	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+163	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Nessun profumo vale l'odore di quel fuoco. 
+""""""
+Gender:"	male	male
+164	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Cantautore,Operatore Culturale,nel 2008 montai due casse e un microfono, nacque il LibereVociFestival... in attesa di capire cosa fare da grande... 
+""""""
+Gender:"	male	male
+165	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+166	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+167	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Amo il rossetto rosso, è profondo e sexy... odio l'orologio al polso, mi fa pensare che il tempo scorre sulla mia pelle... Ascolto, Osservo, Scrivo!!! 
+""""""
+Gender:"	male	female
+168	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: ❤AS ROMA  ❤. 
+""""""
+Gender:"	male	male
+169	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+170	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+171	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 26 anni; politica, calcio e comunicazione. 
+""""""
+Gender:"	male	male
+172	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: la falsità delle persone fa male ,state attenti a non stuzzicarmi troppo.. mio figlio unica ragione di vita.lontano da me,ma vicino al mio cuore! 
+""""""
+Gender:"	male	male
+173	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Stand-up comedian. 
+""""""
+Gender:"	male	male
+174	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+175	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Volevo scrivere una cosa ma dato che non mi viene il congiuntivo lascio stare.. 
+""""""
+Gender:"	male	female
+176	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Vincenza_Enza_EnzaRita_Vinnie_Cenzina_ una, nessuna, centomila; perché così è, se vi pare 🤓 Pirandello docet. 
+""""""
+Gender:"	male	female
+177	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+178	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Oltre a piacermi la matematica ho una vita sociale... o quasi! xD. 
+""""""
+Gender:"	male	female
+179	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: La pazienza è la virtù dei forti. 
+""""""
+Gender:"	male	female
+180	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: no matter what just keeping smile!! 
+""""""
+Gender:"	male	female
+181	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Marketing and Communication Manager, Theater actor and Improviser, life explorer, free thinker. 
+""""""
+Gender:"	male	male
+182	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: maybe serious maybe fun sometimes more fun sometimes more serious. 
+""""""
+Gender:"	male	male
+183	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Digital Strategist @ BusinessSupport // Runner @ RedsnakesMilano //NaturalBornBlonde // Content is always the king //. 
+""""""
+Gender:"	male	female
+184	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Amante della buona cucina, da cui traggo godimento. Tifoso (pazzo) dell'Inter (pazza), sfegatato per la Mclaren e della F1 in generale, UK & USA addicted! 
+""""""
+Gender:"	male	male
+185	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: ▪️Creative director/designer of Notsnob59 ▫️Atelier in Mantova . Instagram alessandra_casella_atelier. ▪️Contact: 📩info@notsnob59.it Shop ⬇️. 
+""""""
+Gender:"	male	female
+186	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: freedom = #BTC. 
+""""""
+Gender:"	male	male
+187	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: , Psicologa-poetessa. #Lamiagattaèsultavolo è l'ultimo lavoro... 
+""""""
+Gender:"	male	female
+188	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: I swim fast sometimes. 
+""""""
+Gender:"	male	male
+189	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: megaminimondo. 
+""""""
+Gender:"	male	male
+190	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: UX Writer at @getqonto. In my free time, a stubborn design lover, mountaineer and basketball maniac. 
+""""""
+Gender:"	male	male
+191	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 28 anni, laureato in scienze politiche all'UNIPV. Malato di sport e televisione. 
+""""""
+Gender:"	male	male
+192	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+193	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+194	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+195	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Consigliere Regionale della Campania.. Già Direttore Marketing e Comunicazione Fmts group. . Direttore e fondatore di Fabula. 
+""""""
+Gender:"	male	male
+196	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Developer di qualsiasi cosa, spazzino della merda prodotta da altri.. Sono nerd ma non sono figo. 
+""""""
+Gender:"	male	male
+197	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+198	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+199	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+200	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Chitarrista, musicista, cantautore, rocker di professione, in arte Capitan Fede. Per tutti sempre e solo Fede \m/. 
+""""""
+Gender:"	male	male
+201	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: You can go your own waaaay (cit. Fleetwood Mac)  ITA 🇮🇹DE 🇩🇪ENG🇬🇧. 
+""""""
+Gender:"	male	male
+202	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+203	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+204	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+205	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Googler, LGBTQ+ activist, dogs lover, trader, boyscout. - Tutto ciò che amo ha dentro il mare (Cit.). 
+""""""
+Gender:"	male	female
+206	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+207	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+208	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: IG: pf_92. ▪️Inter. ▪️Gym. ▪️Movies. ▪️Tech Stuff. 
+""""""
+Gender:"	male	male
+209	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+210	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+211	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Cromie Agency - Social Media Management, Foto/Video, Siti Web e Campaign Manager.. Consigliere Regionale Piemonte Partito Democratico #PresentiperilFuturo. 
+""""""
+Gender:"	male	male
+212	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+213	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Antifascista, liberale, europeo. Kleine Schritte, langer Weg. 🇮🇹🇪🇺🇩🇪🇬🇧. 
+""""""
+Gender:"	male	male
+214	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: soono alla ricerca dell'anima gemella. 
+""""""
+Gender:"	male	male
+215	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 22anni, amante del tennis e del badminton, past presidente Interact di Fasano. GTA V Addicted ❤️ Fasano, Puglia - Italy. 
+""""""
+Gender:"	male	female
+216	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+217	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: racconto le societa' che cambiano. ero nei balcani che si sgretolavano, in sudafrica alla morte di mandela, nella grecia che abbraccia il mediterraneo. 
+""""""
+Gender:"	male	female
+218	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+219	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+220	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: I like Geeking, Information Technology, Gadgets and Hi-Tech. Hire me, pls ;). 
+""""""
+Gender:"	male	male
+221	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+222	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Appassionato di politica e geopolitica, viaggiatore e curioso per natura. 
+""""""
+Gender:"	male	male
+223	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Composer / Arranger / Orchestrator Insta: #marcomposer. 
+""""""
+Gender:"	male	male
+224	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+225	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+226	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+227	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Vicedirettore #Avanti della domenica. Capo Uff Stampa e Comunicazione @PartSocialista. Prima di tutto Leo. Ho scritto #StorieSegrete 👉🏼 https://t.co/IlaMk9JfW8. 
+""""""
+Gender:"	male	female
+228	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Sindaco di Lanciano, Città Medaglia d'Oro per la Resistenza. Medico, per anni Primario di Diabetologia al Renzetti di Lanciano. Attore di teatro, per passione. 
+""""""
+Gender:"	male	male
+229	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Sono cosí Indie... 
+""""""
+Gender:"	male	male
+230	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: speravo meglio. 
+""""""
+Gender:"	male	male
+231	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+232	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+233	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+234	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Impiegata di giorno e tortara di notte. 
+""""""
+Gender:"	male	female
+235	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+236	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Ingegnere, valutatore immobiliare certificato UNI 11558, sogna di fare il cuoco e di scrivere. Cucina gia', per scrivere si sta attrezzando. 
+""""""
+Gender:"	male	male
+237	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+238	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+239	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+240	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: A volte ho tanto da dire, a volte niente; a volte ho voglia di dirlo, a volte no. 
+""""""
+Gender:"	male	female
+241	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+242	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+243	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Autrice e conduttrice radiofonica, Rossella Panarese è stata l’ideatrice di @radio3scienza e forza motrice ideativa e organizzativa a @radio3tweet. 
+""""""
+Gender:"	male	female
+244	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: ... I am what I am: nothing more, nothing less ... 
+""""""
+Gender:"	male	male
+245	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 10%📸. 10%🍽. 10%🛤. 10%🎦. 10%🍹. 10%🎨. 10%📙. 10%🚺. 10%🏋️. 10%🎶. =100% this is the summary of my life! . . ...e poi boh...faccio cose, vedo gente...beh vabbè adoro!!! 
+""""""
+Gender:"	male	male
+246	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Insegnante antifascista. 
+""""""
+Gender:"	male	male
+247	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: I love daydreaming...make it easier. 
+""""""
+Gender:"	male	female
+248	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Laravel lover, web dev, new amazing framework addicted. 
+""""""
+Gender:"	male	male
+249	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+250	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: jusqu'ici, tout va bien. 
+""""""
+Gender:"	male	male
+251	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Non posso mettere REAL davanti al mio nome,ma posso dire che il mio Real Nome è Stella! 
+""""""
+Gender:"	male	female
+252	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+253	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+254	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Traduttrice freelance  - EN/FR/ES  IT  -  Ideatrice e docente dei corsi *Il traduttore giurato* e *Spagnolo-Spagnoli*  (linguaggio legale). 
+""""""
+Gender:"	male	female
+255	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Dj deep house, tech house and techno. 
+""""""
+Gender:"	male	male
+256	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+257	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Mi chiamo Mattia, . Ho Frequentato un Istituto Tecnico Industriale. . Mi piace molto il mondo dell'informatica. Tifo la #Juventus! 
+""""""
+Gender:"	male	male
+258	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+259	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: [Ciao Maria, ciao pubblico, ciao studio]. 
+""""""
+Gender:"	male	female
+260	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+261	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+262	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 🇮🇹🇧🇷 contabilità, diritto tributario, calcio e politica. 
+""""""
+Gender:"	male	female
+263	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+264	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Se viene fuori che c'è un Dio, io non credo che sia cattivo, credo che il peggio che si possa dire di lui è che è sostanzialmente un disadattato. 
+""""""
+Gender:"	male	male
+265	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+266	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Independent art curator. 
+""""""
+Gender:"	male	male
+267	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Studente di Architettura presso UniCa. ~ Direttore e Scrittore di #rawiew. 
+""""""
+Gender:"	male	male
+268	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Official page of Andrea Radighieri AKA Böess!! 
+""""""
+Gender:"	male	male
+269	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+270	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+271	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Con la forza della mente! 
+""""""
+Gender:"	male	female
+272	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Editor and cat lover. 
+""""""
+Gender:"	male	female
+273	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+274	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Ho fondato e dirigo @ciaolapo e @matermundi con @AlfVann.. Mi occupo di salute perinatale, di lutto e diritti umani in gravidanza.. @Ashoka fellow dal 2020. 
+""""""
+Gender:"	male	female
+275	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+276	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Journalist. Research Associate at Centre for Media Pluralism and Media Freedom  @EUI_CMP @EUI_EU. Writer @editorilaterza. 
+""""""
+Gender:"	male	female
+277	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Rien n'est jamais fini pour toujour. 
+""""""
+Gender:"	male	female
+278	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+279	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+280	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Vivo a Bologna, suono il sax alto, baritono e soprano. Mi interesso a molti generi musicali, ma soprattutto amo la Great Black Music: jazz, funk, r'n'b, reggae. 
+""""""
+Gender:"	male	male
+281	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Italian freelance Journalist - based in Warsaw - Contributor for RSI. . Tweets in IT-EN-PL. . Views are mine. 
+""""""
+Gender:"	male	male
+282	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+283	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Fidanzato della temerarietà, amante dell'allegria, sposato con la felicità, vedovo della cattiveria! 
+""""""
+Gender:"	male	male
+284	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+285	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Giornalista RAI. Tra Roma e la Calabria. In biga (o in lettiga). 
+""""""
+Gender:"	male	male
+286	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+287	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+288	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: C'est moi... 
+""""""
+Gender:"	male	male
+289	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Ciao a tutti, sono Fabio, , vivo a Policoro, una cittadina sul mare in provincia di Matera e tifo Inter. A livello di passione scrivo e canto canzoni. 
+""""""
+Gender:"	male	male
+290	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: In Spagna, mi hanno ribatezzato: Lorena, Gloria, Laura, Lorena Da Ana. Loredana non era poi così difficile. 
+""""""
+Gender:"	male	female
+291	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: io sono troppi ex che tutti non ci stanno. Ora sono un pensionato. Poi cambierò con qualcosa di meglio! 
+""""""
+Gender:"	male	male
+292	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: giornalista,giornalaio,giornalaro:la terza vince su tutte... 
+""""""
+Gender:"	male	male
+293	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Not that kind of girl 🐓. 
+""""""
+Gender:"	male	female
+294	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Siciliana. Curiosa, propositiva e testarda. . 30enne con tante passioni. . Il difficile è alzarsi presto ogni mattina, tutto il resto ha soluzioni semplici. ☀. 
+""""""
+Gender:"	male	female
+295	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Dottore in Economia. Consulente del lavoro. Blogger. . #ForzaNapoliSempre. 
+""""""
+Gender:"	male	female
+296	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+297	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: •`~•` OFFICIAL PROFILE `•~`•. 
+""""""
+Gender:"	male	female
+298	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Intraprendente, combattente, sensibile e mai domo... 
+""""""
+Gender:"	male	male
+299	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Formatore e Counselor. Ma in realtà vivrei con la tv sempre accesa. 
+""""""
+Gender:"	male	female
+300	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+301	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+302	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Valvola di sfogo. 
+""""""
+Gender:"	male	male
+303	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Cosa ci fa un bel ragazzo come me in un corpo come questo? 
+""""""
+Gender:"	male	male
+304	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+305	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: virologo x scelta ,🇮🇹🇮🇹🇮🇹🇨🇭. 
+""""""
+Gender:"	male	male
+306	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Sono tranquilla,sono casinista,Sono libera ma so quello che voglio.Sono un coniglio ,sono un leone.Sono una piuma ,sono un peso massimo..  Vado fino in fondo.. 
+""""""
+Gender:"	male	female
+307	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+308	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+309	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+310	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Industrial chemist, living across Milano-Ancona. Techinal Advisor at Arexons S.p.A.- Milanista. 
+""""""
+Gender:"	male	male
+311	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Al di fuori del pensiero comune. 
+""""""
+Gender:"	male	male
+312	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+313	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: C'é un sentiero che mai bisogna prendere ed è quello della sottomissione. 
+""""""
+Gender:"	male	male
+314	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Press officer and public relations in music, events and art. Journalist and writer. Born in Naples, resident in Rome. Stumbling often and sleep a little. 
+""""""
+Gender:"	male	female
+315	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Sfigati si nasce e io lo nacqui, modestamente                                  Esperta in invio cv. . Per proposte (anche di matrimonio) contattatemi in dm. 
+""""""
+Gender:"	male	female
+316	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+317	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+318	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+319	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: sono orgogliosa della famiglia che ho, non cambierei nulla, sono ironica e autoironica, insomma sono una persona contenta di ciò che ha malgrado tutto. 
+""""""
+Gender:"	male	female
+320	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Laureato in Scienze della Comunicazione pubblica, sociale e d'impresa presso l'Università di Bologna. 
+""""""
+Gender:"	male	male
+321	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+322	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Maestro d’ascia su #Lavoro e #PoliticheAttive. Born in Zena. Nipote di naviganti. Ligure, Europeo ora romano! #NoPutin. 3 dosi di Pfizer. #Allviewsmyown. 
+""""""
+Gender:"	male	male
+323	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: drummer, guitarrist, bassman..sometimes i play piano. 
+""""""
+Gender:"	male	male
+324	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Incazzato  con la vecchia politica di SX. Attivo nel M5S. 
+""""""
+Gender:"	male	male
+325	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Jolly Roger 🍖  Hungry Bear 🐻 Blanco Beach Club 💃🏼 Tyler 🍔 Lievito 🍕. 
+""""""
+Gender:"	male	male
+326	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+327	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: fotografo freelance, reporter e matrimonialista.  http://t.co/hqx0EYv5pf. 
+""""""
+Gender:"	male	male
+328	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+329	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+330	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: PARRUCCHIERE E BARBER SHOP. 
+""""""
+Gender:"	male	male
+331	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+332	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+333	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Il popolo é sovrano. 
+""""""
+Gender:"	male	male
+334	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+335	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+336	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+337	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 22 anni, studio International Management in Bocconi🇮🇹+scambio in Maryland 🇺🇸, mi appassiona il Bene Comune, e non lascio che gli altri decidano per me.Monza. 
+""""""
+Gender:"	male	male
+338	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Giornalista, liberale, liberista, libertario, ciccione, serio(so) quando non faccio il coglione. Chi mi ama mi segue... 
+""""""
+Gender:"	male	male
+339	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+340	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+341	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Politica, Comunicazione, Basket. 
+""""""
+Gender:"	male	male
+342	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: studentessa di recitazione, palermo. 
+""""""
+Gender:"	male	female
+343	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Sono le scelte che fai a renderti ciò che sei. 
+""""""
+Gender:"	male	male
+344	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+345	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Habsburger. 
+""""""
+Gender:"	male	male
+346	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+347	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Blogger seriale, amante della fotografia, nel tempo libero cerco di conquistare il mondo.. http://t.co/aI16HOo07r. 
+""""""
+Gender:"	male	female
+348	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: I like thinking. 
+""""""
+Gender:"	male	male
+349	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 46 anni commerciale 2 figli, 7nipoti. Mi piace Lady Gaga e mi piacciono i fumetti.  A 18 anni pensavo delle cose, ora altre. VORREI UNA SOLUZIONE PER L'ITALIA. 
+""""""
+Gender:"	male	male
+350	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Pensionato, pagato tutti i contributi , anche straordinari in busta, godo di ottima pensione, nulla da recriminare. 
+""""""
+Gender:"	male	male
+351	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Laureato in Turismo a Milano, ho vissuto a Londra. Con la passione per libri, arte, viaggi e musica. Frequento Master in Management dei Beni Culturali. 
+""""""
+Gender:"	male	male
+352	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: #noregrets . co-founder @lecicogne. 
+""""""
+Gender:"	male	female
+353	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+354	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Amo la mia famiglia, il mio lavoro, i nomadi e il palermo!!! Il mio cuore RosaNero! 
+""""""
+Gender:"	male	female
+355	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+356	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Giornalista professionista, socia fondatrice di @bonnepressecom Contributor per @DonnaModerna e @MilanoFinanza. 
+""""""
+Gender:"	male	female
+357	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 🌻Il vento dela vita-Quello che ci resta 💛💛💛. 
+""""""
+Gender:"	male	female
+358	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+359	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: emigrata dalla Puglia per lavoro. Hobby: cinema, lettura, tennis, radio 2... 
+""""""
+Gender:"	male	female
+360	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Consigliere della Scuola di Cultura Cattolica (@SCC_Bassano), redattore della #vocedeigiovani (@redazione_vdg). Poi basta. Tweet personalissimi. 
+""""""
+Gender:"	male	male
+361	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Giornalista culturale . Il Foglio @ilfoglio_it . and more (e lamponi, i miei preferiti) 🌈🐝. 
+""""""
+Gender:"	male	male
+362	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+363	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+364	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+365	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: I'll wait. Forever if I have to. 
+""""""
+Gender:"	male	female
+366	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Holy cow only 160 letters to say who I am, I don't think I can do this. 
+""""""
+Gender:"	male	male
+367	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+368	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+369	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+370	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+371	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+372	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+373	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Lavoro come Social Media Manager • Passioni: I miei figli, Argentina, vino |  gabrieleandreozzi@gmail.com • Instagram: @gabrieleandreozzi. 
+""""""
+Gender:"	male	male
+374	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: barese ma trapiantato a Roma. 
+""""""
+Gender:"	male	male
+375	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Torno subito, resto ancora un altro pó. 
+""""""
+Gender:"	male	male
+376	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+377	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+378	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Segretario regionale Fiom Friuli fino al 2017, tifosissimo dell'Udinese, malato di mountain bike. 
+""""""
+Gender:"	male	male
+379	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Si ritorna solo andando via...! 
+""""""
+Gender:"	male	female
+380	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 🎈. 
+""""""
+Gender:"	male	female
+381	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+382	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+383	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Psicoanalista. 
+""""""
+Gender:"	male	female
+384	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+385	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: motorcycle test. 
+""""""
+Gender:"	male	male
+386	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: ♞♘ Italian Chessplayer 🇮🇹. ⚽ Za Fó 🔴⚫🔴⚫. ℹ Instagram: im.misterdani. 
+""""""
+Gender:"	male	male
+387	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+388	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+389	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+390	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Amo la vita, mi piace parlare di tutto e di più e vedo il mondo a colori... soprattutto giallo e rosso. 
+""""""
+Gender:"	male	female
+391	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: ho deciso di perdermi nel mondo anche se sprofondo.......! 
+""""""
+Gender:"	male	female
+392	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+393	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Hey, don't worry, don't be afraid, ever, because Life is just a ride. 
+""""""
+Gender:"	male	male
+394	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+395	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+396	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+397	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Lascia correre. Inciamperanno. 
+""""""
+Gender:"	male	female
+398	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+399	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+400	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Direttore presso Bingo.it  - Palermo Kitesurfer presso BKT Kiteboarding hobby : Snow Wake Surf Kite. 
+""""""
+Gender:"	male	male
+401	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Vicentino. Lavora presso la Società del Quartetto di Vicenza. Consigliere comunale della Lista “Da Adesso in Poi”. 
+""""""
+Gender:"	male	male
+402	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Into COMICS, FITNESS & Cristina D'Avena. 
+""""""
+Gender:"	male	male
+403	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Mi sono fatto da solo....... Non sono venuto tanto bene! 
+""""""
+Gender:"	male	male
+404	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+405	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+406	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: perfetto gentlemen esperto in compravendite immobiliari in qualità di Agente Immobiliare Professionista economista e risolutore debito italiano. 
+""""""
+Gender:"	male	male
+407	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Preferisco essere abbastanza matto per compiere delle pazzie, piuttosto che abbastanza stupido per credere a delle sciocchezze.Sono solo me stessa... 
+""""""
+Gender:"	male	female
+408	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Penso dunque trollo. 
+""""""
+Gender:"	male	male
+409	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: L'architettura e' una questione di millimetri (Le Corbusier). 
+""""""
+Gender:"	male	male
+410	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+411	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+412	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+413	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+414	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Giornalista, Uff stampa di @Radio3tweet, autrice di Gettoni. Piccole storie di grandi scrittori. Ex #Lacittà, Pagina3, RaiCultura. Gattara, mamma di F e C. 
+""""""
+Gender:"	male	female
+415	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Attore, conduttore radiofonico e televisivo, scrittore. Da qualche anno anche Networker, Leader di livello 7 della piattaforma digitale di oro 24kt GIGOS. 
+""""""
+Gender:"	male	male
+416	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Arkitetto,interior and yacht designer. 
+""""""
+Gender:"	male	female
+417	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+418	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Communication & Marketing || Dancer || 24. 
+""""""
+Gender:"	male	female
+419	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Prima gli umani... 
+""""""
+Gender:"	male	male
+420	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Dott. in Scienze dell'educazione -. Educatore Professionale Socio Pedagogico. 
+""""""
+Gender:"	male	male
+421	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Pavia, Spezia, Versilia. Una vita lungo la Francigena. 
+""""""
+Gender:"	male	male
+422	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+423	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+424	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+425	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+426	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+427	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: E' proprio quando tutti pensano una cosa, che trova spazio una versione differente. 
+""""""
+Gender:"	male	male
+428	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+429	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Scrivo perché è la mia passione più grande, leggo perché ho voglia di emozionarmi. Ecco il mio blog:. 
+""""""
+Gender:"	male	female
+430	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Sono una mamma indignata e preoccupata per tutto ciò che sta succedendo. Ma proprio per questo seguo con attenzione politica ed economia . 
+""""""
+Gender:"	male	female
+431	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+432	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+433	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Pasta al pesto enthusiast. 
+""""""
+Gender:"	male	female
+434	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+435	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+436	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: ho sempre odiato le sorprese, l’ultima poi… (Im)paziente oncologica, e vi assicuro non è piacevole. Vediamo chi vince. 😱😬#fuckcancer 🤞💚🤞💚🤞💚🤞💚. 
+""""""
+Gender:"	male	female
+437	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: jòò, ma a me a pellekkia nun m piac!! 
+""""""
+Gender:"	male	male
+438	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Pistoiese, nato nel '79, grande #tifoso #interista e del #PistoiaBasket, finalmente in #SerieA, appassionato di #tecnologia e #social #network! 
+""""""
+Gender:"	male	male
+439	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+440	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+441	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Mi piace distinguermi dalla massa.. .                         ✌✌. 
+""""""
+Gender:"	male	female
+442	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+443	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 👨‍👩‍👧‍👧  Dad . 👨‍💼  Communication advisor. ⛷  Ski Instructor . 🏃‍♂️  Runner. 
+""""""
+Gender:"	male	male
+444	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+445	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Un grammo di comportamento vale 10 chili di parole.....  💖💛💖. 
+""""""
+Gender:"	male	male
+446	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: I like the wind. 
+""""""
+Gender:"	male	female
+447	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: I'm a software engineer, interested in technologies and innovation.. My opinion are only mine and strictly personal. 
+""""""
+Gender:"	male	male
+448	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: ottimista a vita!! 
+""""""
+Gender:"	male	male
+449	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+450	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+451	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Ho bisogno di un caffè. 
+""""""
+Gender:"	male	male
+452	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Avevo paura della solitudine perché sapevo che fosse l'unica che dovunque fossi andata mi avrebbe accompagnata. 
+""""""
+Gender:"	male	female
+453	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+454	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: papà perennemente spettinato,aderente AC, amo mia moglie quasi quanto la mia Nikon ;b. cittadino europeo italiano.. Toccato nel profondo da Charlie Gard 💙. 
+""""""
+Gender:"	male	male
+455	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Che te lo dico a fare... 
+""""""
+Gender:"	male	female
+456	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Impara ad apprezzare quello che hai, prima di doverlo rimpiangere. 
+""""""
+Gender:"	male	female
+457	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Occidentalista, atlantista libero e liberale. Lettere, Sapere Umanistico e Formazione 📚🏛 Tifoso @acmilan 🔴⚫️. 
+""""""
+Gender:"	male	male
+458	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+459	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+460	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: LUNGA VITA AGLI ULTRAS. 
+""""""
+Gender:"	male	male
+461	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+462	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+463	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+464	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+465	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Leggo, dunque sogno. Potenzialmente mi interessa tutto, dopo scelgo. Custode della parola amplissimo. Dimenticavo, sono sommelier. egyzia@gmail.com. 
+""""""
+Gender:"	male	female
+466	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: international choreographer/ personal trainer / hip hop model. 
+""""""
+Gender:"	male	female
+467	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+468	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Appassionato dello Sport più bello del mondo ⚽️. 
+""""""
+Gender:"	male	male
+469	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+470	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Studente di ingegneria civile. Aut viam inveniam, aut faciam. 
+""""""
+Gender:"	male	male
+471	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+472	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Graduated in Economics/Baseball player in Bollate. 
+""""""
+Gender:"	male	male
+473	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Vergine Maria,per favore,fammi diventare un maschio,su,non è cosi difficile,trasformami in un bambino,perché il problema è che io come bambina non vado bene. 
+""""""
+Gender:"	male	female
+474	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Il miglior modo per uscire da una trappola è di non caderci mai dentro stefano.coccia@libero.it. 
+""""""
+Gender:"	male	male
+475	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+476	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 28 ~ Travel Art Astronomy ~ BIGGEST SELENA GOMEZ FAN ON EARTH - Buy #Rare 💖. 
+""""""
+Gender:"	male	female
+477	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: I love procrastinating and calling it self care. 
+""""""
+Gender:"	male	female
+478	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+479	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+480	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+481	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+482	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Infermiera di Terapia Intensiva (ICU nurse), ma l'80% delle volte sono io la paziente 💉🤸🏻‍♀️. 
+""""""
+Gender:"	male	female
+483	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: niente è più importante dell'amore. Vince sopra ogni cosa. La misura dell'amore? è amare senza misura. 
+""""""
+Gender:"	male	female
+484	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: ODIO L'IPOCRISIA PIÙ DI QUALUNQUE ALTRA COSA AL MONDO!!! E LE PSEUDO FEMMINISTE!!! 
+""""""
+Gender:"	male	female
+485	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+486	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Software developer, data analist and, first of all, @SSCNapoli supporter. 
+""""""
+Gender:"	male	male
+487	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+488	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: “Non si ama qualcuno perché è perfetto, lo si ama nonostante il fatto che non lo sia.”. 
+""""""
+Gender:"	male	female
+489	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+490	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+491	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: giornalista, pres. del https://t.co/pbD94mPk0L, dir. di @LineaNewsIT, parlo di #Vicenza #Veneto #sport #calcio #volley #basket #atletica #podcast #radio #cultura #cibo. 
+""""""
+Gender:"	male	male
+492	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+493	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+494	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Se ti va aggiungimi su http://t.co/E6hd5eJhxC o seguimi su http://t.co/gLsWdkEM4w. 
+""""""
+Gender:"	male	male
+495	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+496	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+497	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+498	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+499	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+500	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Non dare il tuo mille a chi sa contare fino a cento! 
+""""""
+Gender:"	male	female
+501	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: I'm Gabriel, 36, Japanese language and literature lover that truly believes life's in every breath. 百戦錬磨 Degree in Japanese.TQM.Teacher.Twitch:Poruko85. 
+""""""
+Gender:"	male	male
+502	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+503	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Bertonico (LO), Roma, ora Milano/Lugano.. Giornalista @StradaReginaRSI, telecronista @ElevenSportsIT. Scuola di giornalismo @wtobagi 2016-18.. Socio @AC1868. 
+""""""
+Gender:"	male	male
+504	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+505	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+506	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+507	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+508	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Laboratorio riparazioni orlologi di tutte le marche dal 1980.  RICAMBI TUTTE LE MARCHE o quasi. 
+""""""
+Gender:"	male	male
+509	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+510	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+511	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+512	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+513	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+514	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: @UniBocconi @ESCP_bs, 22, sharing news and different perspectives. Interested in finance applied to the real economy and renewable energies. 
+""""""
+Gender:"	male	male
+515	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+516	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+517	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: cofounder di coffee bits, appassionato di video-editing e di fotografia. amante della natura e degli animali. 
+""""""
+Gender:"	male	male
+518	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+519	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+520	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: MEMENTO AUDERE SEMPER. 
+""""""
+Gender:"	male	male
+521	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+522	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: GUARDIA DEL CORPO E ADDETTO ALLA SECURITY. 
+""""""
+Gender:"	male	male
+523	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Gioco con, ma anche di a da in su per tra fra sopra sotto la poesia, mi interrogo su perdite e ritrovamenti di calzini, leggo, scrivo, faccio male i conti. 
+""""""
+Gender:"	male	female
+524	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+525	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Allenatore di Calcio UEFA B. Osservatore del Cesena Calcio Laurea in Scienze Politiche nato il 4/3/1975. Emiliano Doc. 
+""""""
+Gender:"	male	male
+526	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+527	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+528	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: un diversamente giovane rossonero che ha frequentato s.Siro da quando aveva solo il primo anello. 
+""""""
+Gender:"	male	male
+529	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+530	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 'Questions of science,science and progress don't speak as loud as my heart.'. 
+""""""
+Gender:"	male	female
+531	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+532	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Spendo la maggior parte del tempo ad ascoltare e a fare musica... credetemi non è tempo sprecato !!! 
+""""""
+Gender:"	male	female
+533	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+534	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+535	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+536	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+537	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: London based // human Alexa // mamma prosciutta // my priorities are animals, food and music. 1/3 of @grandkidsitalia ✖️✖️. 
+""""""
+Gender:"	male	female
+538	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: There's no way to happiness, happiness is the way.. Sognando il teatro. 
+""""""
+Gender:"	male	female
+539	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: fashion stylist. 
+""""""
+Gender:"	male	male
+540	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Fra la musica ed il video. 
+""""""
+Gender:"	male	male
+541	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+542	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: seguo l’Inter da oltre 58 anni 💙🖤💙🖤💙🖤💙🖤💙🖤presente a Madrid il 22 maggio 2010. 
+""""""
+Gender:"	male	male
+543	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: La libertà economica è la condizione necessaria della libertà politica. 
+""""""
+Gender:"	male	male
+544	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+545	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+546	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+547	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: La vita è una cosa meravigliosa (carpediem). 
+""""""
+Gender:"	male	female
+548	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+549	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Alessando Aleotti . Ragione di vita senza ombra di dubbio! Ax non era meglio prima. 
+""""""
+Gender:"	male	female
+550	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Dipendente. 
+""""""
+Gender:"	male	male
+551	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+552	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: guardia giurata. 
+""""""
+Gender:"	male	male
+553	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Grazie, do solo un'occhiata. 
+""""""
+Gender:"	male	female
+554	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Ingegnere elettronico, tecnico competente in acustica ambientale, certificatore energetico, progettazione impianti fotovoltaici, Energy manager. 
+""""""
+Gender:"	male	male
+555	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 42 anni, modenese, vivo a Brescia e lavoro a Verona, alla #FIM. Due gatte e varie passioni, il sindacato, la filosofia e la psicologia. 
+""""""
+Gender:"	male	female
+556	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+557	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+558	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+559	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+560	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+561	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+562	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: LAUREA IN SCIENZE AGRARIE,ECONOMISTA AGRARIO,PRESIDENTE FUTURIDEA,INNOVAZIONE UTILE SOSTENIBILE. 
+""""""
+Gender:"	male	male
+563	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+564	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Ristorante pizzeria spcialita tanto amore nei miei piatti Le migliori pizze che si posson assaggiare Con musica e balli. 
+""""""
+Gender:"	male	female
+565	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Studente di ingegneria gestionale appassionato di giornalismo e scrittura ecco il mio blog http://t.co/wLgFjJ8VUJ. Sono in cerca di editore... 
+""""""
+Gender:"	male	male
+566	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+567	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+568	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+569	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+570	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+571	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+572	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Tutta la vita tra musica, video e installazioni. Amando l'arte e la tecnologia. 
+""""""
+Gender:"	male	male
+573	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+574	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+575	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+576	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+577	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+578	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+579	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Un italiano sempre in fuga da un paese in panne ✈️. Voglio un futuro perché tutto il mio passato è in fiamme 🔥. 
+""""""
+Gender:"	male	male
+580	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Tutto e' iniziato alle elementari con la poesia L'inviato speciale. 
+""""""
+Gender:"	male	female
+581	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+582	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+583	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: ... In informatica, come nella vita, non si finisce mai di imparare! 
+""""""
+Gender:"	male	male
+584	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+585	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: a cosa serve che scrivo su di me?se mi conosci mi segui.cook,live,love Romagna ❤. 
+""""""
+Gender:"	male	male
+586	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: gay... ciccione... single... stronzo... 
+""""""
+Gender:"	male	male
+587	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+588	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+589	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Work in a FinTech company,beauty and make-up addicted,mi perdo dentro un sacchetto di caramelle gommose e credo ancora nelle favole. 
+""""""
+Gender:"	male	female
+590	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+591	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Administrative Assistant . . ◽Sono molto pєggio di quєllo chє si possa pensarє.. ◽La gentilezza fa male.. . 🔺No Chat. 🔺No Profili Porno/Fake. 🔺No Ipocriti. 
+""""""
+Gender:"	male	female
+592	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+593	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 01031994//// ciao a tutte sono julia ed ho un canale YouTube che vorrei far crescere (makeupjulia) se non lo conoscete dateci un occhiata ❤️❤️. 
+""""""
+Gender:"	male	female
+594	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Mah. 
+""""""
+Gender:"	male	male
+595	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: giulietto grosso. 
+""""""
+Gender:"	male	male
+596	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: she/her. 
+""""""
+Gender:"	male	female
+597	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: si lavora x vivere e non vivere x lavorare!!!!!! già lavorare sarebbe vivere. 
+""""""
+Gender:"	male	male
+598	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Controllore del Traffico Aereo.. Appassionato di cucina e di musica.. Tifoso della Roma ma senza paraocchi. . . Spesso risulto simpatico, altre volte NO....... 
+""""""
+Gender:"	male	male
+599	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+600	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Amante della #natura e dell’ #ambiente, appassionato di #orticoltura e #tecnologia, professionista della #SupplyChain e tecnico #agroalimentare 🚜🍀🌹🐞🐝🐌🧤. 
+""""""
+Gender:"	male	male
+601	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+602	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+603	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: consulente finanziario. 
+""""""
+Gender:"	male	female
+604	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Purtroppo non ho la verità in tasca. 
+""""""
+Gender:"	male	male
+605	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Enaip vimercate. 
+""""""
+Gender:"	male	male
+606	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Mi chiamo Giulia  e sono una ragazza sportiva❤ Amo la palestra e amo tenermi in forma ❤. 
+""""""
+Gender:"	male	female
+607	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 23 anni, laureanda in media e istituzioni. 
+""""""
+Gender:"	male	female
+608	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Ciao a Tutti Mi chiamo Alessandro Gervasoni  , collaboro come speaker in una radio locale in Valle Brembana ( Bg) , tesserato Pd . 
+""""""
+Gender:"	male	male
+609	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Atleta, scrittore, web designer. Mi piace guardare le cose da un lato diverso, dal mio.. Ho scritto un romanzo: The Timeless Warrior. 
+""""""
+Gender:"	male	male
+610	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+611	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+612	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Giornalista. Assiduo narratore di storie, con la penna, la parola e la chitarra. 
+""""""
+Gender:"	male	male
+613	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+614	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+615	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Hi, my name's Clelia.. I'm italian .. I love photos . . Follow me! 
+""""""
+Gender:"	male	female
+616	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+617	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+618	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+619	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Rome. Senior Consultant @ EY - Anti-Fraud, Anti-Corruption area - LinkedIn: https://t.co/QilIeSNxCi…. 
+""""""
+Gender:"	male	female
+620	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+621	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: yoooooo amo TWITTER,il CALCIO, tifo JUVEEE ed ETTORE CALABRESE è un pirlaaaaaaaaaa.... VIVA LE VACCHE SVIZZERE. 
+""""""
+Gender:"	male	male
+622	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Visita il mio blog https://t.co/7b7JO0P5HY e la mia pagina facebook Allergico all'allergia. 
+""""""
+Gender:"	male	male
+623	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+624	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Mi dichiaro giornalista politico. In parlamento dal 1985. Autore di Rai3 & altro. Irregolare e deviante, chance ou malchance. Opinioni personali, se mi va. 
+""""""
+Gender:"	male	male
+625	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+626	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Marketing Lead at tech startup, tweeting mostly about news, politics, psychology, data, etc. Atypical Italian: I have cappuccino in the afternoon. 
+""""""
+Gender:"	male	male
+627	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Il bianco e il nero sono colori che contengono tutto, Sono di una bellezza assoluta. È l'accordo perfetto. Sono juventino dal 1 novembre 1897. 
+""""""
+Gender:"	male	male
+628	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+629	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+630	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Giornalista pubblicista, laureato in Scienze Statistiche e Ingegneria informatica. Ambasciatore del #PoveroMe nel mondo. 
+""""""
+Gender:"	male	male
+631	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+632	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Serena di nome e di fatto. 
+""""""
+Gender:"	male	female
+633	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+634	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 🍺 Tuttofare presso un’azienda di impianti alla spina 📷 Fotografo per passione 🧢 Allenatore Uefa C 💜 Fiorentina. 
+""""""
+Gender:"	male	male
+635	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+636	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Interista e... ho detto tutto. Lia, Andrea e Martina, la mia vita. Il basket la mia passione da 45 anni. 
+""""""
+Gender:"	male	male
+637	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 🇮🇹🇬🇧🇫🇷🇪🇸🇨🇳 speaker. Business consultant 👨‍💻. 
+""""""
+Gender:"	male	male
+638	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+639	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Videomaker pensionato, calciatore mai sbocciato, amante del vitello tonnato. 
+""""""
+Gender:"	male	male
+640	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+641	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Bresciano-siciliano nell'Urbe | Laureato in Relazioni internazionali (LM-52). . (...) Uno non pratico, che non ha il polso di un matematico... 
+""""""
+Gender:"	male	male
+642	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+643	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 👩🏻Giorgia . 🎂27 . ❤️Libri, fotografia e animali. 🔸Mi diletto a parlare di libri e creare contenuti su Instagram. 
+""""""
+Gender:"	male	female
+644	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Barack Obama, Don Winslow, Michael Jordan, Kobe Bryant, Bruce Springsteen, Sandro Pertini , Paolo Pulici. 
+""""""
+Gender:"	male	male
+645	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+646	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+647	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+648	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+649	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+650	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Teacher | Vocalist | Voiceactress | Hyperdestinia Vocalist | @ParsifalGaming 's Wife and Tommaso’s Mum ❤️ Alle stelle che ascoltano, e ai sogni che si avverano✨. 
+""""""
+Gender:"	male	female
+651	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+652	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+653	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+654	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+655	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: I was a full professor at the University of Perugia and the barley breeder at ICARDA, Aleppo Syria until 2006. Currently I am an international consultant. 
+""""""
+Gender:"	male	male
+656	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+657	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+658	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+659	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+660	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+661	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: consulente amministrativa e pensionata. 
+""""""
+Gender:"	male	female
+662	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+663	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+664	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+665	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Cardiologo dedito alla cura delle persone. Sono appassionato di cinema e curioso di sociologia, tecnologia, web e social. Ho fondato Omnibus Salute. 
+""""""
+Gender:"	male	male
+666	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+667	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 23 anni,studentessa di Scienze politiche alla @LuissGiudoCarli. Scrivere è la mia vita, la musica riesce sempre a salvarmi. Sogno molto,dormo poco. .  . Roma/RC. 
+""""""
+Gender:"	male	female
+668	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Online English and professional tutor. #IamRemarkable facilitator. 
+""""""
+Gender:"	male	female
+669	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+670	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+671	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+672	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: ✨A piccoli passi si raggiungono grandi traguardi✨. Forza Milan!!!!⚽️. 
+""""""
+Gender:"	male	male
+673	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+674	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Volleyball player, lover & blogger. Web Marketing Specialist at @Marketing_Info. 
+""""""
+Gender:"	male	female
+675	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: “La normalità era solo quello che la mia volontà, il mio impegno e la mia parola avrebbero accettato che fosse, e per quel motivo sarebbe stata sempre con me''. 
+""""""
+Gender:"	male	female
+676	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Incurable optimist 🙃. 
+""""""
+Gender:"	male	female
+677	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+678	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+679	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+680	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: FrancoGiuseppeCortesi.55 anni, laurea politica internazionale Alfieri FI 87  quadro alto da 96, giornalista da 90. Licenziato ingiustamente da 27/11/2012. 
+""""""
+Gender:"	male	male
+681	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Sono mamma, nonna, conciliare tutto non è semplice, mi sto attrezzando per compiere il miracolo. 
+""""""
+Gender:"	male	female
+682	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Alla perenne ricerca di una collocazione. 
+""""""
+Gender:"	male	male
+683	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Sono Italiano, mi piacciono i Dire Straits e sono leghista. 
+""""""
+Gender:"	male	male
+684	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: ciao  a  tutti.io vivo ad Ancona e  cerco  nuove  amicizie.ciao. 
+""""""
+Gender:"	male	female
+685	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+686	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Preferisco ridere.....I prefer to laugh. 
+""""""
+Gender:"	male	female
+687	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+688	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Il sole stesso non vede se le nuvole non si diradano. 
+""""""
+Gender:"	male	male
+689	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+690	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: E se ti succede ancora...di guardare in faccia il mare...giri in fretta gli occhi e il cuore...che hai ben altro a cui pensare! 
+""""""
+Gender:"	male	female
+691	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Succede solo che sono felice  fino all’ultimo profondo angolino del cuore.. (P. Neruda). 
+""""""
+Gender:"	male	female
+692	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+693	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+694	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+695	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: notturna. 
+""""""
+Gender:"	male	female
+696	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: pubblicitario-scrivo-dipingo-disegno e a volte m'incazzo. 
+""""""
+Gender:"	male	male
+697	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Seriamente. Che altro ci può capitare. 
+""""""
+Gender:"	male	male
+698	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+699	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+700	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+701	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Tuttobolognaweb, Gazzetta, Gazzanet, Quotidiano Nazionale, Radio 1909. Bolognese doc. Vi avviso: sono tutto tranne che perfetto. 
+""""""
+Gender:"	male	male
+702	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+703	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+704	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+705	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+706	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+707	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Funziona solo se stiamo insieme!! 
+""""""
+Gender:"	male	female
+708	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+709	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+710	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+711	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+712	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+713	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Sono di Milano Italia, mi piace confrontarmi sempre con educazione. 
+""""""
+Gender:"	male	male
+714	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: ☮. 
+""""""
+Gender:"	male	female
+715	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 𝑵𝒐𝒍𝒊𝒕𝒆 𝒕𝒆 𝒃𝒂𝒔𝒕𝒂𝒓𝒅𝒆𝒔 𝒄𝒂𝒓𝒃𝒐𝒓𝒖𝒏𝒅𝒐𝒓𝒖𝒎. 
+""""""
+Gender:"	male	female
+716	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+717	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+718	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+719	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+720	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+721	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+722	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+723	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+724	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+725	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+726	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+727	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: A volte penso addirittura che Napoli possa essere ancora l'ultima speranza  che resta alla razza umana. 
+""""""
+Gender:"	male	male
+728	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+729	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+730	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Adolescente,amante dello sport,Calcio e Tennis,Juventino. 
+""""""
+Gender:"	male	male
+731	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Scrivo per arrivare al cuore delle persone, per scoprire le loro emozioni, le loro sensazioni più profonde e segrete.❤. 
+""""""
+Gender:"	male	female
+732	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Bisogna ridere perchè fa bene. . La superficialità mi manda in bestia.DI SINISTRA SEMPRE.Beatles,gatti ,Natura, le mie passioni.. The Big Bang Theory addicted. 
+""""""
+Gender:"	male	female
+733	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+734	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+735	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+736	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+737	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Bionda onoraria, aspirante dittatore dopo aver visto un documentario netflix. Scorpione, ascendente Debbie Addams. IG: magno__gram. 
+""""""
+Gender:"	male	male
+738	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+739	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+740	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Per evitare inutili discussioni.... Non interagite con me se siete:. Grillini . PiDini . Europeisti. Facciamorete. evitateme!. Vi ringrazio . #tech. 
+""""""
+Gender:"	male	male
+741	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+742	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+743	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Romano, e fiero di essere italiano. Studente di Giurisprudenza. 
+""""""
+Gender:"	male	male
+744	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+745	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: FCO di Lodovica Comello, Francesca nella serie Disney Violetta  #UNIVERSO #IOnlyWantToBeWithYou http://t.co/mbNJDKZFRK. 
+""""""
+Gender:"	male	female
+746	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+747	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: io qua tu là io amo la libertà. Non so più a cosa appartengo, ma non affondo. 
+""""""
+Gender:"	male	female
+748	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: sono sicuro che non ci capirò niente... 
+""""""
+Gender:"	male	male
+749	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+750	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+751	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+752	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: aspetta a dimenticare le strie incantate di maghi e di fate la vita non è come credi è peno d'insidie dolori e tranelli . distugge in un attimo. I SOGNI PIÙ BELLI. 
+""""""
+Gender:"	male	female
+753	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+754	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+755	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+756	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+757	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+758	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Medical Doctor, in the (little) spare time: Broadway, music, theatre (all kind of theatre, all kind of music), books, travels addicted. Be curious. #HDM. 
+""""""
+Gender:"	male	female
+759	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+760	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+761	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: #ProudOfLouis #ProudOfHarry 🔪🌹. 
+""""""
+Gender:"	male	female
+762	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+763	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 😘. 
+""""""
+Gender:"	male	female
+764	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: tifoso del napoli. 
+""""""
+Gender:"	male	male
+765	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Così parlò Bellavista di Luciano De Crescenzo: libro, film, tutti conoscono le mie battute. Nasco come personaggio di Totò, travestito da filosofo, uomo d'amore. 
+""""""
+Gender:"	male	male
+766	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+767	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+768	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+769	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+770	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+771	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Are a natural bodybuilding Calabra Italy---Geometra Presso TM prefabbricati . https://t.co/ipvMyJ78px. http://t.co/gjqkplRjMu. 
+""""""
+Gender:"	male	male
+772	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+773	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+774	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+775	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Dicono che non potrei. Dicono che ho il cuore a metà-. 
+""""""
+Gender:"	male	female
+776	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+777	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: ITALIANO PER DISGRAZIA. Non sopporto i falsi buonisti e chi ancora crede ai politici che ci violentano da sempre. Amichevole e spontaneo. . 
+""""""
+Gender:"	male	male
+778	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: consulente commerciale presso Vithagroup. 
+""""""
+Gender:"	male	male
+779	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+780	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+781	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+782	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+783	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+784	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+785	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Fatti forza è la vita sai che ti sfida. 
+""""""
+Gender:"	male	female
+786	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+787	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+788	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: I'm Lord of all darkness. I'm Queen of the night. 
+""""""
+Gender:"	male	female
+789	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: cantare. 
+""""""
+Gender:"	male	female
+790	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+791	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 💯. 
+""""""
+Gender:"	male	male
+792	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+793	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: L'Occidente è un fiore cresciuto una sola volta nella storia. E adesso senza pensarci avete deciso di schiacciarlo. 
+""""""
+Gender:"	male	male
+794	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+795	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+796	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Giornalista web. Ho scritto per @Limesonline e @Mark_Up_, leggo libri per @Mondadori. Ho una newsletter, si chiama “Dentro gli androni”. Cuore nerazzurro. 
+""""""
+Gender:"	male	female
+797	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 21 anni, Calabria. Innamorato del giornalismo sportivo. Malato di calcio, malato della @Juventus ⚪⚫ #finoallafine #VR46 #Ferrari. 
+""""""
+Gender:"	male	male
+798	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+799	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+800	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+801	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+802	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+803	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Commercialista, giornalista pubblicista, amo la vita. 
+""""""
+Gender:"	male	male
+804	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+805	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+806	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+807	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Ti ho mai detto qual'è la definizione di follia? 
+""""""
+Gender:"	male	female
+808	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Giornalista (L'Espresso - Ohga). Curioso e battagliero. Mi piace dar voce a chi non può parlare per sé.. Attivista Lgbt+, a Milano ma con il cuore a Roma. 
+""""""
+Gender:"	male	male
+809	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+810	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+811	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+812	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+813	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Mille facezie e motti di spirito.. . Non mi chiamo Duccio | she/her. . ☉ ♋ ☾ ♓ ↑ ♐. 
+""""""
+Gender:"	male	male
+814	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: S’i’ fosse Carlo come sono e fui, torrei le donne giovani e leggiadre e vecchie e laide lasserei altrui. 
+""""""
+Gender:"	male	male
+815	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+816	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Professore ordinario di Diritto costituzionale - Università del Molise - opinioni personali. #Costituzione #Diritto #Democrazia #Diritti #Politica. 
+""""""
+Gender:"	male	male
+817	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+818	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+819	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Di tutto un po'! Opinione personale sui prodotti testati. https://t.co/q4htqQN9yk. 
+""""""
+Gender:"	male	male
+820	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Gemma Edizioni . #nVITE #n1Vite #SelfieDiNoi #FavoleDiCioccolata  . Progetti : #Legga33 #Babel  @gemmaedizioni. https://t.co/4m2LSdQBXV…. . gemmaedizion. 
+""""""
+Gender:"	male	female
+821	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+822	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: #giornalista. 
+""""""
+Gender:"	male	male
+823	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+824	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: jackie. 
+""""""
+Gender:"	male	male
+825	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+826	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+827	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: • faccio schifo ma con parsimonia • 🏳️‍🌈 he/him. 
+""""""
+Gender:"	male	male
+828	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: schizzosimona2014@libero.it. 
+""""""
+Gender:"	male	female
+829	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+830	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Intermediario assicurativo e finanziario. contatti:assimancini@gmail.com. 
+""""""
+Gender:"	male	male
+831	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+832	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: @ffrittelline. 
+""""""
+Gender:"	male	female
+833	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+834	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+835	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 📍Milano 🇮🇹 👷🏻‍♂️Muratore @edilcapsrl  🏳️‍🌈 LGBT+  🌈Tra i fondatori @isentinelli  😻Papà di 2 Gatti  🎒Viaggio 📸 Scatto 📱. 
+""""""
+Gender:"	male	male
+836	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: ☀️Sono una ragazza a cui piace la natura, gli animali, la musica e la fotografia!. . https://t.co/7mQknKE5Vt. 
+""""""
+Gender:"	male	female
+837	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+838	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+839	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+840	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: genitore amante dell'Africa ed attento osservatore delle ingiustizie sociali globali, amante dell’ambiente e veterinario per passione. 
+""""""
+Gender:"	male	male
+841	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Milanista❤️🖤. Ottimista😉 . Cibo dipendente🍔🥩🍝🍗🍕🍟🍰. Degustatore di Vino🍷e Birra🍺. Vascomane😎. 
+""""""
+Gender:"	male	male
+842	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+843	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: DIO, PATRIA, FAMIGLIA. 
+""""""
+Gender:"	male	male
+844	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+845	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: “ C’è una strada che, se la scegli, ti conduce in tutte le direzioni: il rispetto. ”. Antonio Cuomo. 
+""""""
+Gender:"	male	male
+846	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+847	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+848	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+849	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+850	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+851	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+852	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+853	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: @ncis forever. 
+""""""
+Gender:"	male	female
+854	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+855	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 🇷🇺. 
+""""""
+Gender:"	male	male
+856	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+857	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Hey Twitterosi!Sento Odore Di...Follow Me!*-*Seguitemi E Vi Seguo!Ricambio A Tutti Quanti!Vi Voglio In Tanti!Io Adesso Sto a 140...Vorrei Arrivare A 240...^-^. 
+""""""
+Gender:"	male	female
+858	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+859	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Capire le persone. 
+""""""
+Gender:"	male	male
+860	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Crotone . 27-05-00. 
+""""""
+Gender:"	male	female
+861	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+862	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Chiamatemi Esp| 15.| vorrei scrivere qualcosa di figo,ma non mi viene niente. 
+""""""
+Gender:"	male	female
+863	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: ? 
+""""""
+Gender:"	male	male
+864	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Irreversibilmente ottimista, ai limiti dell'ingenuità. Sorrido. Leggo tutto il giorno, per lavoro e per me. Aspetto un'estate migliore e propizia. 
+""""""
+Gender:"	male	female
+865	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+866	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Sognatrice sconclusionata perennemente e disperatamente alla ricerca della vita. 
+""""""
+Gender:"	male	female
+867	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+868	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Sessuologa. Psicologa. Scrittrice. ♥️ @lastampa https://t.co/xBhqBOkc9o. 
+""""""
+Gender:"	male	female
+869	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+870	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+871	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+872	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+873	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+874	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+875	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+876	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+877	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Sono ottimista. .ma preoccupato. ...non vorrei che Renzi si stancasse troppo di combattere contro le teste di cazzo.. 
+""""""
+Gender:"	male	male
+878	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Pensare Oltre. 
+""""""
+Gender:"	male	male
+879	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: ❤HEYY GUYS❤ FOLLOW ME ON MUSICA.ly & Instagram :@deeedux   thanks Jacob and Brandon for follow me I love yaa🌹. 
+""""""
+Gender:"	male	female
+880	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+881	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Viaggiare è il mio lavoro e la mia vita. Concreta e spirituale. Ho la lacrima facile ma mai quanto il vaffanculo. 
+""""""
+Gender:"	male	female
+882	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+883	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+884	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Tante aspettative e sogni puntualmente disattesi~ Sempre sull'orlo di un crollo emotivo~ Jeremy Strong & Taylor Swift Stan Account~ she/her🌈. 
+""""""
+Gender:"	male	female
+885	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+886	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+887	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+888	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+889	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Non problemi di individuazione nè di affermazione. Odio la massificazione e il gregge. Il mio cervello è solo nella mia disponibilità. 
+""""""
+Gender:"	male	male
+890	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+891	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+892	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+893	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: ,da poco, dopo 7 anni di convivenza mi sono lasciato appassionato  di motori,sono romano,vivo a Roma ,precisamente,vicino al litorale ciao a tutti. 
+""""""
+Gender:"	male	male
+894	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+895	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+896	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+897	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+898	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+899	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+900	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+901	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+902	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Lotto e non mollo. 
+""""""
+Gender:"	male	female
+903	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+904	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+905	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+906	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Boh. 
+""""""
+Gender:"	male	male
+907	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+908	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+909	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+910	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Non esco mai senza:. cinismo,. rossetto rosso,. appetito. 
+""""""
+Gender:"	male	female
+911	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+912	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: vivo a Trieste di Fuerteventura ho  frequentato il conservatore G.Tartini.                         ❤️ sposata. 
+""""""
+Gender:"	male	female
+913	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+914	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+915	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+916	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: ""la mente è come il paracadute. Funziona solo quando è aperta"" A. Einstein. 
+""""""
+Gender:"	male	female
+917	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+918	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+919	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Ama tutti, credi a pochi e non far del male a nessuno. W.S. 
+""""""
+Gender:"	male	male
+920	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+921	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Interessato a scambiare idee, punti di vista, opinioni ed esperienze con chiunque sappia esprimersi civilmente. 
+""""""
+Gender:"	male	male
+922	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+923	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+924	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Antifascista e anti renziano. 
+""""""
+Gender:"	male	male
+925	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+926	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+927	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+928	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio:  e lavoro da 32 alle Poste Italiane spa. 
+""""""
+Gender:"	male	female
+929	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+930	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+931	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+932	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: L’autoironia. 
+""""""
+Gender:"	male	female
+933	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Tifoso del Milan dalla nascita. 
+""""""
+Gender:"	male	male
+934	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Avvocato curioso che non sopporta banalità. Ogni idea merita rispetto. Nessuna deve essere insultata. E prima di tutto e di tutti, l’Italia🇮🇹#LaReteSiamoNoi. 
+""""""
+Gender:"	male	male
+935	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+936	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+937	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+938	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+939	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+940	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+941	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+942	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+943	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+944	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+945	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+946	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+947	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+948	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+949	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+950	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Studentessa, scrittrice, atipica. 
+""""""
+Gender:"	male	female
+951	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+952	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+953	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+954	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+955	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Mamma ,nonna,orgogliosa di esserlo.loro sono la mia vita ,i miei figli e nipoti.ho  la carica e la voglia di vivere.mi piace la tv,i film la natura gli animali. 
+""""""
+Gender:"	male	female
+956	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+957	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: ✍🏻 Giornalista | 📍 #Napoli | Former @CalcioNapoli24 | Oggi @fantacalcio e @serieanews_com | Spesso ripeto cose che ho già detto, ma non lo faccio di proposito. 
+""""""
+Gender:"	male	male
+958	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Musica Calcio Club della Serie A TIM Informazione Governo & Istituzioni Politica. 
+""""""
+Gender:"	male	male
+959	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+960	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+961	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+962	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Piedi nelle Air,testa sulla luna!❣. 
+""""""
+Gender:"	male	female
+963	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+964	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+965	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+966	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+967	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+968	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+969	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+970	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: MI  PIACCIONO LE BIMBE OVVERO DONNE IN LINGERIE BACIONI DOLCISSIME BIMBE. 
+""""""
+Gender:"	male	male
+971	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Claudia/18 anni / Como 💕. 
+""""""
+Gender:"	male	female
+972	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+973	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+974	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Non è  orfano colui che perde i genitori,ma coloro che perdono la speranza. La speranza è già  domani. 
+""""""
+Gender:"	male	male
+975	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+976	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: PhD. Economics. 
+""""""
+Gender:"	male	male
+977	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+978	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Se adottiamo un punto di vista corretto, possiamo tenere sotto controllo vaste distanze per quanto limitata sia la nostra persona. 
+""""""
+Gender:"	male	male
+979	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+980	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+981	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+982	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+983	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+984	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+985	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+986	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+987	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+988	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+989	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+990	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+991	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+992	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+993	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+994	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+995	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+996	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+997	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: settantenne giustizialista obeso, laico, euroscettico, no-antifa, omofobo, gattaro perso, grande viaggiatore, destrorso, laziale, ora alla canna del gas... 
+""""""
+Gender:"	male	male
+998	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+999	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+1000	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1001	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1002	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+1003	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+1004	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Clinical Case Coordinator @Medendi2. MBA @mbaCDIITALIA. PhD Cancer Biology @unigenews. Bio-Mol @unito. Contributor @repubblica. TO-OXF-MAD-GVA 🇮🇹🇨🇭🇪🇺. 
+""""""
+Gender:"	male	male
+1005	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1006	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1007	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1008	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1009	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1010	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+1011	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1012	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1013	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Romano doc. 
+""""""
+Gender:"	male	male
+1014	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+1015	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+1016	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1017	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1018	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1019	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1020	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Illusa, disillusa, delusa. 
+""""""
+Gender:"	male	female
+1021	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Ingegnere Musica Food & Lifestyle Politica Sport Tecnologia e Scienza Arte e Cultura. 
+""""""
+Gender:"	male	male
+1022	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Nato a Me1946.Per lavoro a Mi. Sposato 3Figli.Oggi Pensionato .Nonno 4 Nipoti. 
+""""""
+Gender:"	male	male
+1023	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+1024	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1025	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1026	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Amore per la natura. 
+""""""
+Gender:"	male	male
+1027	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1028	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+1029	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+1030	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1031	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+1032	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1033	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Per un cazzo di raffreddore, due anni di merda. (cit. Quaerens me@Enrico26659481). 
+""""""
+Gender:"	male	male
+1034	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1035	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1036	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: casalinga ma mi guardo sempre attorno. 
+""""""
+Gender:"	male	female
+1037	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 18, Bologna. 
+""""""
+Gender:"	male	male
+1038	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: AC MILAN - Ballerino alla radio. 
+""""""
+Gender:"	male	male
+1039	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Il fine non giustifica mai i mezzi. 
+""""""
+Gender:"	male	female
+1040	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1041	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 🏴‍☠️🇺🇦🇹🇼. 
+""""""
+Gender:"	male	male
+1042	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Si sta' come d'autunno . sugli alberi, le foglie. 
+""""""
+Gender:"	male	male
+1043	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Gioia. 
+""""""
+Gender:"	male	female
+1044	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+1045	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Giornalista, scrittore, consulente parlamentare, perito giudiziario, un paio di incarichi universitari: e mi sono pure divertito. https://t.co/ExjYHyTvId. 
+""""""
+Gender:"	male	male
+1046	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Sardo, classe '86. Cuoco per vocazione e studente di scienze politiche per passione. . Adoro il cibo, la storia dell'Antica Roma, l'astronomia e la Juventus. 
+""""""
+Gender:"	male	male
+1047	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+1048	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Non sono speciale la mia famiglia lo è ! 
+""""""
+Gender:"	male	male
+1049	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1050	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Lettrice illeggibile, viaggiatrice appena posso, un pochino sognatrice. 
+""""""
+Gender:"	male	female
+1051	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1052	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Sono un ex ristoratore in pensione. 
+""""""
+Gender:"	male	male
+1053	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1054	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Persona normale niente di eccezionale però VIVA. 
+""""""
+Gender:"	male	male
+1055	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: trasparenza. 
+""""""
+Gender:"	male	female
+1056	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1057	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: The man Surname Bimbo. 
+""""""
+Gender:"	male	male
+1058	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Curiosa e generosa. 
+""""""
+Gender:"	male	female
+1059	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Dicono che chi semina bene raccoglie i frutti .. Spesso gli altri raccolgono e tu zappi. 
+""""""
+Gender:"	male	male
+1060	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: La gatta sul tetto che scivola no omofobi ne razzisti. 
+""""""
+Gender:"	male	male
+1061	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Lawyer, amateur MtG player, wannabe bassist, creator of bad quizzes on Sporcle; He/Him. 
+""""""
+Gender:"	male	male
+1062	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: PRIMA GLI ITALIANI. PATRIOTA. ITALEXIT. NO EURO. NO IUS SOLI. NO ISLAM.🇮🇹🇮🇹🇮🇹🏴󠁧󠁢󠁥󠁮󠁧󠁿🏴󠁧󠁢󠁥󠁮󠁧󠁿🏴󠁧󠁢󠁥󠁮󠁧󠁿. 
+""""""
+Gender:"	male	male
+1063	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Madre e nonna. Professoressa di Matematica , #Sorcina grande Renatoo. 
+""""""
+Gender:"	male	female
+1064	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1065	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Simpatia. 
+""""""
+Gender:"	male	male
+1066	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1067	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Niente perché non mi sento speciale. 
+""""""
+Gender:"	male	male
+1068	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Lo penso, lo scrivo:. io dico la mia, tu dici la tua e viviamo tutti felici e contenti. 
+""""""
+Gender:"	male	male
+1069	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1070	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: leggo tutto quello che mi capita a tiro e cerco di pensare con la mia testa. 
+""""""
+Gender:"	male	male
+1071	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1072	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Scledense a Venezia, studente di Storia Contemporanea a @CaFoscari, coordinatore @ugs_nordest e segreteria nazionale @ugs_ufficiale. Comunista. 
+""""""
+Gender:"	male	male
+1073	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1074	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: MD, Ph.d. Kinky worldwide psychologist/mentalist. Mil Historian Nap Age, warfare analyst. Very happy married with wonderful Beatrice now mom to 2twins. 
+""""""
+Gender:"	male	male
+1075	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Marta. 
+""""""
+Gender:"	male	female
+1076	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1077	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1078	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+1079	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Sugar. 
+""""""
+Gender:"	male	male
+1080	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1081	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1082	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+1083	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Neve d'Estate 🌞🌨️ ➖Irpino 🐺➖U. S. Avellino 1912 ⬜🟩➖. «Si descriva in due parole». «Pigro...». 
+""""""
+Gender:"	male	male
+1084	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1085	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+1086	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1087	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Ragazzo di 17 anni, pianista e chitarrista. 
+""""""
+Gender:"	male	male
+1088	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+1089	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: La  curiosità. 
+""""""
+Gender:"	male	male
+1090	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1091	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: la sincerità. 
+""""""
+Gender:"	male	male
+1092	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+1093	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+1094	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: amore estremo e ultraviolenza, del resto tutto ha senso nella testa di chi lo pensa. 
+""""""
+Gender:"	male	female
+1095	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Il fascismo si cura leggendo. Il razzismo si cura viaggiando.. Figlio del Vesuvio!!! 
+""""""
+Gender:"	male	male
+1096	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1097	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+1098	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1099	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1100	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1101	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: io. 
+""""""
+Gender:"	male	male
+1102	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+1103	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Non è come sembra, posso spiegarvi tutto. 
+""""""
+Gender:"	male	female
+1104	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1105	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: in love with art and cinema. 
+""""""
+Gender:"	male	female
+1106	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1107	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+1108	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1109	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: ridatemi la sinistra... 
+""""""
+Gender:"	male	male
+1110	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+1111	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: QUANDO SULLA SCHIENA HAI CICATRICI, È LÌ CHE CI ATTACCHI LE ALI. 💛💛💛. 
+""""""
+Gender:"	male	female
+1112	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1113	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+1114	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: nonno. 
+""""""
+Gender:"	male	male
+1115	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: ..Ama, ama follemente, ama più che puoi e se ti dicono che è peccato, ama il tuo peccato e sarai innocente ❤️.  🍀🍀🍀😂😂😂❤️🌈. 
+""""""
+Gender:"	male	female
+1116	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: non entra tutto il cognome nel nome utente lol. 
+""""""
+Gender:"	male	male
+1117	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: se non avessi una bandiera non saprei che vento tira @acffiorentina | account sospeso @xnaaalj | INFJ-T |she/her. 
+""""""
+Gender:"	male	female
+1118	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1119	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1120	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1121	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Mare. 
+""""""
+Gender:"	male	female
+1122	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1123	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1124	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Francoforte-Roma -Medellín .🇮🇹🇳🇱🇮🇱🇨🇴🇺🇸🇨🇺 A destra dalla nascita ,sono a volte  Rudy  a volte Valentino . 
+""""""
+Gender:"	male	male
+1125	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1126	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Solarità. 
+""""""
+Gender:"	male	male
+1127	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Lottare e vincere 🎗💚.. Capire il senso della vita e metterlo avanti ad ogni cosa.. Trovare l'amore e realizzare di avere davvero TUTTO ❤. 
+""""""
+Gender:"	male	female
+1128	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1129	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1130	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1131	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: Sono un mercenario ouihgyddre. 
+""""""
+Gender:"	male	male
+1132	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1133	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female
+1134	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	male
+1135	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: 𝘕𝘢𝘳𝘤𝘰𝘭𝘦𝘱𝘴𝘺 𝘨𝘰𝘵 𝘮𝘦 𝘧𝘦𝘦𝘭𝘪𝘯𝘨 𝘴𝘵𝘢𝘨𝘦 𝘧𝘳𝘪𝘨𝘩𝘵. . ✧˚ ༘ ⋆｡♡˚. She/her. ⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆. Mercury dominant. 
+""""""
+Gender:"	male	female
+1136	"Classify the gender of the tweeter user with the following bio:
+""""""
+ Bio: . 
+""""""
+Gender:"	male	female

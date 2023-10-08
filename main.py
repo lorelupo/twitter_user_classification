@@ -8,10 +8,10 @@ The text annotations produced by the LLM are then evaluated against the gold lab
 Example usage:
 
 python main.py \
-    --data_file data/human_annotation/dim1_test.csv \
-    --instruction instructions/pappa/dim1/nodesc_zeroshot.txt \
-    --task_file tasks/pappa/dim1.json \
-    --prompt_suffix "\\nLabel:" \
+    --data_file data/user_classification/data_for_models_test.pkl \
+    --instruction instructions/twitter_gender_classification/bio.txt \
+    --task_file tasks/twitter_gender_classification/bio.json \
+    --prompt_suffix "\\n\"\"\"\\nGender:" \
     --model_name google/flan-t5-small \
     --max_len_model 512 \
     --output_dir tmp \

@@ -1,4 +1,5 @@
 import json
+import re
 import pandas as pd
 
 class TaskManager:
@@ -11,8 +12,12 @@ class TaskManager:
 
         # define dictionary of data-reading functions
         self.data_reading_functions = {
-            "pappa": self.read_data_pappa,
-            "twitter_bio": self.twitter_bio,
+            "twitter_features_gender_bio": TaskManager.twitter_features_gender_bio,
+            "twitter_features_gender_bio_tweets": TaskManager.twitter_features_gender_bio_tweets,
+            "twitter_features_age_bio": TaskManager.twitter_features_age_bio,
+            "twitter_features_age_bio_tweets": TaskManager.twitter_features_age_bio_tweets,
+            "twitter_features_age_interval_bio": TaskManager.twitter_features_age_interval_bio,
+            "twitter_features_age_interval_bio_tweets": TaskManager.twitter_features_age_interval_bio_tweets,
         }
 
         # read task specs from json task_file
@@ -48,9 +53,9 @@ class TaskManager:
         # Read each bio and tweets concatenation, splitting them by \n and
         # joining by '. ' if sentences don't already end with a dot, else join by ' '
         if include_bio:
-            bios = df.masked_bio.apply(lambda x: [text + '.' if not (text.endswith('.') or text.endswith('!') or text.endswith('?') or text.endswith(';')) else text for text in x.split('\n')]).apply(lambda x: ' '.join(x)).tolist()
+            bios = df.masked_bio.apply(lambda x: [text + '.' if not (text.endswith('.') or text.endswith('!') or text.endswith('?') or text.endswith(';')) else text for text in x.split('\n')]).apply(lambda x: ' '.join(x)).apply(lambda x: re.sub('\r', '', x)).tolist()
         if include_tweets:
-            tweets = df.long_text.apply(lambda x: [text + '.' if not (text.endswith('.') or text.endswith('!') or text.endswith('?') or text.endswith(';')) else text for text in x.split('\n')]).apply(lambda x: ' '.join(x)).tolist()
+            tweets = df.long_text.apply(lambda x: [text + '.' if not (text.endswith('.') or text.endswith('!') or text.endswith('?') or text.endswith(';')) else text for text in x.split('\n')]).apply(lambda x: ' '.join(x)).apply(lambda x: re.sub('\r', '', x)).tolist()
         if include_bio and include_tweets:
             # Join each tweet and bio by 'Bio: ' and 'Tweets: '
             input_texts = ['Bio: ' + bio + '\nTweets: ' + tweet for bio, tweet in zip(bios, tweets)]
@@ -83,7 +88,7 @@ class TaskManager:
         return TaskManager.twitter_features(path, include_bio=True, include_tweets=True, label_name='is_male')
 
     @staticmethod
-    def twitter_features_age_bio_tweets(path):
+    def twitter_features_age_bio(path):
         return TaskManager.twitter_features(path, include_bio=True, include_tweets=False, label_name='age')
 
     @staticmethod
@@ -91,7 +96,7 @@ class TaskManager:
         return TaskManager.twitter_features(path, include_bio=True, include_tweets=True, label_name='age')
 
     @staticmethod
-    def twitter_features_age_interval_bio_tweets(path):
+    def twitter_features_age_interval_bio(path):
         return TaskManager.twitter_features(path, include_bio=True, include_tweets=False, label_name='age_interval')
 
     @staticmethod
