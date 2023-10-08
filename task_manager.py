@@ -31,21 +31,69 @@ class TaskManager:
                 )
 
     @staticmethod
-    def read_data_pappa(path_data):
-        # Read the csv/xlsx data file to table
-        if path_data.endswith('.csv'):
-            df = pd.read_csv(path_data, sep=';').fillna('NA')
-        elif path_data.endswith('.xlsx'):
-            df = pd.read_excel(path_data).fillna('NA')
-        # Read texts
-        input_texts = [text[:-1] + '.' if not text.endswith('.') else text for text in df['text_clean'].tolist()]
-        # Read gold labels if any
-        if 'elin' in df.columns:
-            gold_labels = df[['elin', 'lena', 'oscar', 'agg']]
+    def twitter_features(
+        path_data: str,
+        include_bio=True,
+        include_tweets=True,
+        label_name='is_male',
+        ):
+        # Read the pickle dataframe
+        if path_data.endswith('.pkl'):
+            df = pd.read_pickle(path_data)
         else:
-            gold_labels = None
+            raise NotImplementedError
+        # check if there are any missing values (shouldn't be the case)
+        if df.isnull().values.any():
+            raise ValueError('The dataframe contains missing values')
+        # Read each bio and tweets concatenation, splitting them by \n and
+        # joining by '. ' if sentences don't already end with a dot, else join by ' '
+        if include_bio:
+            bios = df.masked_bio.apply(lambda x: [text + '.' if not (text.endswith('.') or text.endswith('!') or text.endswith('?') or text.endswith(';')) else text for text in x.split('\n')]).apply(lambda x: ' '.join(x)).tolist()
+        if include_tweets:
+            tweets = df.long_text.apply(lambda x: [text + '.' if not (text.endswith('.') or text.endswith('!') or text.endswith('?') or text.endswith(';')) else text for text in x.split('\n')]).apply(lambda x: ' '.join(x)).tolist()
+        if include_bio and include_tweets:
+            # Join each tweet and bio by 'Bio: ' and 'Tweets: '
+            input_texts = ['Bio: ' + bio + '\nTweets: ' + tweet for bio, tweet in zip(bios, tweets)]
+        elif include_bio:
+            input_texts = ['Bio: ' + bio for bio in bios]
+        elif include_tweets:
+            input_texts = ['Tweets: ' + tweet for tweet in tweets]
+
+        # Read the gold labels
+        if label_name == 'is_male':
+            gold_labels = df[label_name].tolist()
+            gold_labels = ['male' if label == True else 'female' for label in gold_labels]
+        if label_name == 'age':
+            gold_labels = df[label_name].astype(int).tolist()
+        if label_name == 'age_interval':
+            # define age classes
+            age_intervals = [0, 19, 30, 40, 100]
+            age_labels = [0, 1, 2, 3]
+            # Discretize the 'age' column into four classes
+            gold_labels = pd.cut(df['age'], bins=age_intervals, labels=age_labels, right=False).tolist()
+        
         return input_texts, gold_labels
 
     @staticmethod
-    def twitter_bio(path_data):
-        raise NotImplementedError
+    def twitter_features_gender_bio(path):
+        return TaskManager.twitter_features(path, include_bio=True, include_tweets=False, label_name='is_male')
+
+    @staticmethod
+    def twitter_features_gender_bio_tweets(path):
+        return TaskManager.twitter_features(path, include_bio=True, include_tweets=True, label_name='is_male')
+
+    @staticmethod
+    def twitter_features_age_bio_tweets(path):
+        return TaskManager.twitter_features(path, include_bio=True, include_tweets=False, label_name='age')
+
+    @staticmethod
+    def twitter_features_age_bio_tweets(path):
+        return TaskManager.twitter_features(path, include_bio=True, include_tweets=True, label_name='age')
+
+    @staticmethod
+    def twitter_features_age_interval_bio_tweets(path):
+        return TaskManager.twitter_features(path, include_bio=True, include_tweets=False, label_name='age_interval')
+
+    @staticmethod
+    def twitter_features_age_interval_bio_tweets(path):
+        return TaskManager.twitter_features(path, include_bio=True, include_tweets=True, label_name='age_interval')
