@@ -18,5 +18,5 @@ python main.py \
     --max_len_model $max_len_model \
     --output_dir tmp \
     --cache_dir /scratch/mentalism/cache/ \
-    --evaluation_only False
+    --evaluation_only True
 done

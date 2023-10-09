@@ -9,8 +9,8 @@ Example usage:
 
 python main.py \
     --data_file data/user_classification/data_for_models_test.pkl \
-    --instruction instructions/twitter_gender_classification/bio.txt \
-    --task_file tasks/twitter_gender_classification/bio.json \
+    --instruction instructions/gender_classification/bio.txt \
+    --task_file tasks/gender_classification/bio.json \
     --prompt_suffix "\\n\"\"\"\\nGender:" \
     --model_name google/flan-t5-small \
     --max_len_model 512 \

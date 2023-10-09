@@ -60,7 +60,7 @@ class LMClassifier:
             # retrieve a single label for each prediction since a single classification task is performed at a time
             logger.info("Retrieving predictions...")
             for prediction in predictions:
-                labels_in_prediction = [self.labels_dict.get(label) for label in self.labels_dict.keys() if label in prediction]
+                labels_in_prediction = [self.labels_dict.get(label) for label in self.labels_dict.keys() if label in prediction.split()]
                 if len(labels_in_prediction) > 0:
                     predicted_labels.append(labels_in_prediction[0])
                 else:
