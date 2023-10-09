@@ -1,2 +1,2 @@
-Classify the gender (male or female) of the tweeter user with the following bio:
+Classify the gender (male or female) of the author of this bio:
 """

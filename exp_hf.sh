@@ -7,16 +7,16 @@
 model_name=google/flan-t5-xxl
 max_len_model=512
 
-for instruction in  twitter_gender_classification/bio_hf.txt
+for instruction in  gender_classification/bio_hf.txt
 do
 python main.py \
     --data_file data/user_classification/data_for_models_test.pkl \
     --instruction instructions/$instruction \
-    --task_file tasks/twitter_gender_classification/bio.json \
+    --task_file tasks/gender_classification/bio.json \
     --prompt_suffix "\\n\"\"\"\\nGender:" \
     --model_name $model_name \
     --max_len_model $max_len_model \
     --output_dir tmp \
     --cache_dir /scratch/mentalism/cache/ \
-    --evaluation_only True
+    --evaluation_only False
 done
