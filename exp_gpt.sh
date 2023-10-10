@@ -4,7 +4,7 @@
 # model_name=gpt-4
 # max_len_model=4097
 model_name=gpt-3.5-turbo
-max_len_model=512
+max_len_model=4097
 
 # python main.py \
 #     --data_file data/user_classification/data_for_models_test.pkl \

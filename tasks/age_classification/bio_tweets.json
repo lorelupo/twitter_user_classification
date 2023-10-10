@@ -1,0 +1,10 @@
+{
+    "labels": {
+        "0": "0-19",
+        "1": "20-29",
+        "2": "30-39",
+        "3": "40-59",
+        "4": "60-100"
+        },
+    "read_function": "twitter_features_age_interval_bio_tweets"
+}

@@ -72,10 +72,10 @@ class TaskManager:
             gold_labels = df[label_name].astype(int).tolist()
         if label_name == 'age_interval':
             # define age classes
-            age_intervals = [0, 19, 30, 40, 100]
-            age_labels = [0, 1, 2, 3]
+            age_intervals = [0, 19, 30, 40, 60, 100]
+            age_labels = [0, 1, 2, 3, 4]
             # Discretize the 'age' column into four classes
-            gold_labels = pd.cut(df['age'], bins=age_intervals, labels=age_labels, right=False).tolist()
+            gold_labels = pd.cut(df['age'], bins=age_intervals, labels=age_labels, right=False).astype('str').tolist()
         
         return input_texts, gold_labels
 
