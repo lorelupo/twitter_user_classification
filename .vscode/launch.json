@@ -6,7 +6,7 @@
     "configurations": [
  
         {
-            "name": "llm gender",
+            "name": "hf gender",
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/main.py",
@@ -24,19 +24,20 @@
             ]
         },
         {
-            "name": "gpt pappa dirk",
+            "name": "gpt age",
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/main.py",
             "console": "integratedTerminal",
             "args": [
-                "--data_file", "data/human_annotation/dim1_test.csv",
-                "--instruction", "instructions/pappa_all_dirk.txt",
-                "--output_prompt", "\\n\\n",
+                "--data_file", "data/user_classification/data_for_models_test_toy.pkl",
+                "--task_file", "tasks/age_classification/bio_tweets.json",
+                "--instruction", "nstructions/age_classification/bio_tweets_gpt.txt",
+                "--prompt_suffix", "\\n\"\"\"\\nAge\\ group:",
                 "--model_name", "gpt-3.5-turbo",
-                "--max_len_model", "4097",
-                "--task", "pappa_dim1_dirk",
+                "--max_len_model", "2048",
                 "--output_dir", "tmp",
+                "--evaluation_only", "True",
             ]
         },
     ]
