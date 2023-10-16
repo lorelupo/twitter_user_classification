@@ -18,13 +18,23 @@ max_len_model=512
 #     --cache_dir /scratch/mentalism/cache/ \
 #     --evaluation_only False
 
-CUDA_VISIBLE_DEVICES=0 python main.py \
+# CUDA_VISIBLE_DEVICES=0 python main.py \
+#     --data_file data/user_classification/data_for_models_test.pkl \
+#     --instruction instructions/gender_classification/bio_tweets_hf.txt \
+#     --task_file tasks/gender_classification/bio_tweets.json \
+#     --prompt_suffix \\n\"\"\"\\nGender: \
+#     --model_name $model_name \
+#     --max_len_model $max_len_model \
+#     --output_dir tmp \
+#     --cache_dir /scratch/mentalism/cache/ \
+#     --evaluation_only False
+
+CUDA_VISIBLE_DEVICES=1 python main.py \
     --data_file data/user_classification/data_for_models_test.pkl \
-    --instruction instructions/gender_classification/bio_tweets_hf.txt \
-    --task_file tasks/gender_classification/bio_tweets.json \
-    --prompt_suffix \\n\"\"\"\\nGender: \
+    --instruction instructions/age_classification/bio_tweets_hf.txt \
+    --task_file tasks/age_classification/bio_tweets.json \
+    --prompt_suffix \\n\"\"\"\\nAge\ group: \
     --model_name $model_name \
     --max_len_model $max_len_model \
     --output_dir tmp \
-    --cache_dir /scratch/mentalism/cache/ \
-    --evaluation_only False
+    --cache_dir /scratch/mentalism/cache/
