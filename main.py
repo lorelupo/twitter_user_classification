@@ -134,6 +134,7 @@ def classify_and_evaluate(
     if evaluation_only:
         logger.info(f'Evaluation only. Loading raw predictions.')
         # Load raw predictions
+        logger.info(f'Loading raw predictions from: {os.path.join(output_dir, "raw_predictions.txt")}')
         with open(os.path.join(output_dir, 'raw_predictions.txt'), 'r') as f:
             predictions = f.read().splitlines()
         prompts = None
