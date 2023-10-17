@@ -2,6 +2,7 @@ import openai
 import backoff
 from dotenv import load_dotenv
 import os
+import re
 import time
 import pandas as pd
 import collections 
@@ -49,6 +50,28 @@ class LMClassifier:
     def generate_predictions(self):
         raise NotImplementedError
     
+
+    def range_robust_get_label(self, prediction, bounds):
+        # more robust get label function that manages numbers in the returned text and assigns them to the correct range in case of number ranges
+        # extract all two digit numbers or 0 from the prediction
+        numbers = [int(n) for n in re.findall('\d{2}|[0]',prediction)]
+        if len(numbers)==0:
+            return self.labels_dict.get(self.default_label)
+        if len(numbers)>0:
+            if (numbers[-1]>bounds[-1][-1]) or (numbers[0]<bounds[0][0]):
+                return self.labels_dict.get(self.default_label)
+            elif len(numbers)==1:
+                #check which list in bounds the number belongs to
+                for i, bound in enumerate(bounds):
+                    if numbers[0] in bound:
+                        return self.labels_dict.get(list(self.labels_dict.keys())[i])
+            elif len(numbers)>1:
+                #just use the first 2 numbers
+                # check the overlap of the range between numbers with bounds
+                overlaps = [len(set(range(numbers[0],numbers[1])).intersection(set(bound))) for bound in bounds]
+                return self.labels_dict.get(list(self.labels_dict.keys())[overlaps.index(max(overlaps))])
+
+
     def retrieve_predicted_labels(self, predictions, prompts, only_dim=None):
 
         # convert the predictions to lowercase
@@ -64,7 +87,13 @@ class LMClassifier:
                 if len(labels_in_prediction) > 0:
                     predicted_labels.append(labels_in_prediction[0])
                 else:
-                    predicted_labels.append(self.labels_dict.get(self.default_label))
+                    # first check if there is a range in all the labels
+                    bounds = [[int(n) for n in key.split('-') if n.isnumeric()] for key in self.labels_dict.keys()]
+                    if all(bounds): #if all labels have a number range
+                        bounds = [list(range(b[0],b[1]+1)) for b in bounds]
+                        predicted_labels.append(self.range_robust_get_label(prediction,bounds))
+                    else:
+                        predicted_labels.append(self.labels_dict.get(self.default_label))
             # Count the number of predictions of each type and print the result
             logger.info(collections.Counter(predicted_labels))
         else:
