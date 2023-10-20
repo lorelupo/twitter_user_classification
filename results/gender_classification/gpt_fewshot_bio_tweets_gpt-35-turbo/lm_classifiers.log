@@ -1,0 +1,26 @@
+2023-10-17 22:50:58 [lm_classifiers] Retrieving predictions...
+2023-10-17 22:50:58 [lm_classifiers] Counter({'male': 584, 'female': 535})
+2023-10-17 22:50:58 [lm_classifiers] Evaluating predictions...
+2023-10-17 22:50:58 [lm_classifiers] 
+  prompt prediction    gold
+0   None     female    male
+1   None     female  female
+2   None     female  female
+3   None     female  female
+4   None       male    male
+
+2023-10-17 22:50:58 [lm_classifiers] KAPPA:
+         gold   model
+gold   100.00   55.47
+model   55.47  100.00
+
+2023-10-17 22:50:58 [lm_classifiers] ACCURACY:
+         gold   model
+gold   100.00   78.02
+model   78.02  100.00
+
+2023-10-17 22:50:58 [lm_classifiers] F1:
+        gold  model
+gold   100.0   77.4
+model   77.4  100.0
+

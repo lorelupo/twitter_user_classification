@@ -1,0 +1,141 @@
+2023-10-18 11:22:55 [lm_classifiers] Guess the age of the author of the following texts across 4 age groups: "0-19", "20-29", "30-39", "40-100". Only answer with an age group, even if uncertain.
+
+Bio: Ho stabilito il mio record di resistenza alla vita e stranamente mi sento leggera | Musica e poco altro | Non sono emo, è che mi disegnano così.
+Gender: female
+Age group: 30-39
+
+Bio: Hello everyone I am presenting my name is Paul Pomo live with the hope that my dream of becoming an actor to achieve my talent !!
+Age group: 30-39
+
+Bio: l’anima della festa secondo astrolandi. PR e comunicatrici secondo il cv.
+Age group: 0-19
+
+Bio: So fare tutto perché so cercare su google come fare le cose. #tuttofare.
+Age group: 20-29
+
+Bio: Anni di Duro Lavoro in 🇮🇹 e all'Estero, da lì Espereinza/e, nonchè, un'innata, E/Simpatia, sono la/e, mia/e, credenziale/i !!!
+Age group: 40-100
+
+Bio: Non uso molto Twitter 🥰 cercherò di esserci anche qui. Se non volete perdere le mie avventure seguitemi su Instagram ❤️.
+Age group: 20-29
+
+Bio: 1996!.. one direction and zayn malik is my life!!
+Age group: 0-19
+
+Bio: Ero perso nel diluvio quando sono stato accecato dalla Luce: da allora sono nato per correre!LostInTheFlood, I was BlindedByTheLight:since then I'm BornToRun.
+Age group: 40-100
+
+
+ Bio: Con le ruote per terra . Sentire il mio passo sul sentiero. I Dispersi ed.Falsopiano. Movimento per 21 pianoforti. Capulcu, Voices from Gezi. insolitocinema.it. 
+Age group:
+2023-10-18 11:23:02 [lm_classifiers] Processed 20 sentences
+2023-10-18 11:23:08 [lm_classifiers] Processed 40 sentences
+2023-10-18 11:23:15 [lm_classifiers] Processed 60 sentences
+2023-10-18 11:23:22 [lm_classifiers] Processed 80 sentences
+2023-10-18 11:33:27 [lm_classifiers] Error in generating prediction for prompt n.91: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)
+2023-10-18 11:33:27 [lm_classifiers] Selected default label "0-19" for prompt n.91.
+2023-10-18 11:43:27 [lm_classifiers] Error in generating prediction for prompt n.92: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)
+2023-10-18 11:43:27 [lm_classifiers] Selected default label "0-19" for prompt n.92.
+2023-10-18 11:43:29 [lm_classifiers] Processed 100 sentences
+2023-10-18 11:43:37 [lm_classifiers] Processed 120 sentences
+2023-10-18 11:53:44 [lm_classifiers] Error in generating prediction for prompt n.131: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)
+2023-10-18 11:53:44 [lm_classifiers] Selected default label "0-19" for prompt n.131.
+2023-10-18 11:53:49 [lm_classifiers] Processed 140 sentences
+2023-10-18 11:53:57 [lm_classifiers] Processed 160 sentences
+2023-10-18 12:03:57 [lm_classifiers] Error in generating prediction for prompt n.160: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)
+2023-10-18 12:03:57 [lm_classifiers] Selected default label "0-19" for prompt n.160.
+2023-10-18 12:04:05 [lm_classifiers] Processed 180 sentences
+2023-10-18 12:14:06 [lm_classifiers] Error in generating prediction for prompt n.180: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)
+2023-10-18 12:14:06 [lm_classifiers] Selected default label "0-19" for prompt n.180.
+2023-10-18 12:14:12 [lm_classifiers] Processed 200 sentences
+2023-10-18 12:14:22 [lm_classifiers] Processed 220 sentences
+2023-10-18 12:14:30 [lm_classifiers] Processed 240 sentences
+2023-10-18 12:14:36 [lm_classifiers] Processed 260 sentences
+2023-10-18 12:14:44 [lm_classifiers] Processed 280 sentences
+2023-10-18 12:19:06 [lm_classifiers] Processed 300 sentences
+2023-10-18 12:19:19 [lm_classifiers] Processed 320 sentences
+2023-10-18 12:29:28 [lm_classifiers] Error in generating prediction for prompt n.337: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)
+2023-10-18 12:29:28 [lm_classifiers] Selected default label "0-19" for prompt n.337.
+2023-10-18 12:29:30 [lm_classifiers] Processed 340 sentences
+2023-10-18 12:29:45 [lm_classifiers] Processed 360 sentences
+2023-10-18 12:29:55 [lm_classifiers] Processed 380 sentences
+2023-10-18 12:30:04 [lm_classifiers] Processed 400 sentences
+2023-10-18 12:30:12 [lm_classifiers] Processed 420 sentences
+2023-10-18 12:30:18 [lm_classifiers] Processed 440 sentences
+2023-10-18 12:30:25 [lm_classifiers] Processed 460 sentences
+2023-10-18 12:30:32 [lm_classifiers] Processed 480 sentences
+2023-10-18 12:30:38 [lm_classifiers] Processed 500 sentences
+2023-10-18 12:40:42 [lm_classifiers] Error in generating prediction for prompt n.512: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)
+2023-10-18 12:40:42 [lm_classifiers] Selected default label "0-19" for prompt n.512.
+2023-10-18 12:40:48 [lm_classifiers] Processed 520 sentences
+2023-10-18 12:40:58 [lm_classifiers] Processed 540 sentences
+2023-10-18 12:41:07 [lm_classifiers] Processed 560 sentences
+2023-10-18 12:41:14 [lm_classifiers] Processed 580 sentences
+2023-10-18 12:41:20 [lm_classifiers] Processed 600 sentences
+2023-10-18 12:41:27 [lm_classifiers] Processed 620 sentences
+2023-10-18 12:41:33 [lm_classifiers] Processed 640 sentences
+2023-10-18 12:41:39 [lm_classifiers] Processed 660 sentences
+2023-10-18 12:41:46 [lm_classifiers] Processed 680 sentences
+2023-10-18 12:41:52 [lm_classifiers] Processed 700 sentences
+2023-10-18 12:41:58 [lm_classifiers] Processed 720 sentences
+2023-10-18 12:52:01 [lm_classifiers] Error in generating prediction for prompt n.728: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)
+2023-10-18 12:52:01 [lm_classifiers] Selected default label "0-19" for prompt n.728.
+2023-10-18 13:02:03 [lm_classifiers] Error in generating prediction for prompt n.734: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)
+2023-10-18 13:02:03 [lm_classifiers] Selected default label "0-19" for prompt n.734.
+2023-10-18 13:12:03 [lm_classifiers] Error in generating prediction for prompt n.735: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)
+2023-10-18 13:12:03 [lm_classifiers] Selected default label "0-19" for prompt n.735.
+2023-10-18 13:12:04 [lm_classifiers] Processed 740 sentences
+2023-10-18 13:12:13 [lm_classifiers] Processed 760 sentences
+2023-10-18 13:12:20 [lm_classifiers] Processed 780 sentences
+2023-10-18 13:22:23 [lm_classifiers] Error in generating prediction for prompt n.790: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)
+2023-10-18 13:22:23 [lm_classifiers] Selected default label "0-19" for prompt n.790.
+2023-10-18 13:22:27 [lm_classifiers] Processed 800 sentences
+2023-10-18 13:22:38 [lm_classifiers] Processed 820 sentences
+2023-10-18 13:22:44 [lm_classifiers] Processed 840 sentences
+2023-10-18 13:22:52 [lm_classifiers] Processed 860 sentences
+2023-10-18 13:22:58 [lm_classifiers] Processed 880 sentences
+2023-10-18 13:23:05 [lm_classifiers] Processed 900 sentences
+2023-10-18 13:23:11 [lm_classifiers] Processed 920 sentences
+2023-10-18 13:23:18 [lm_classifiers] Processed 940 sentences
+2023-10-18 13:23:27 [lm_classifiers] Processed 960 sentences
+2023-10-18 13:23:33 [lm_classifiers] Processed 980 sentences
+2023-10-18 13:23:40 [lm_classifiers] Processed 1000 sentences
+2023-10-18 13:23:47 [lm_classifiers] Processed 1020 sentences
+2023-10-18 13:23:54 [lm_classifiers] Processed 1040 sentences
+2023-10-18 13:33:57 [lm_classifiers] Error in generating prediction for prompt n.1049: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)
+2023-10-18 13:33:57 [lm_classifiers] Selected default label "0-19" for prompt n.1049.
+2023-10-18 13:34:00 [lm_classifiers] Processed 1060 sentences
+2023-10-18 13:34:10 [lm_classifiers] Processed 1080 sentences
+2023-10-18 13:34:17 [lm_classifiers] Processed 1100 sentences
+2023-10-18 13:44:19 [lm_classifiers] Error in generating prediction for prompt n.1103: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)
+2023-10-18 13:44:19 [lm_classifiers] Selected default label "0-19" for prompt n.1103.
+2023-10-18 13:54:21 [lm_classifiers] Error in generating prediction for prompt n.1109: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)
+2023-10-18 13:54:21 [lm_classifiers] Selected default label "0-19" for prompt n.1109.
+2023-10-18 14:04:24 [lm_classifiers] Error in generating prediction for prompt n.1117: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)
+2023-10-18 14:04:24 [lm_classifiers] Selected default label "0-19" for prompt n.1117.
+2023-10-18 14:04:24 [lm_classifiers] Retrieving predictions...
+2023-10-18 14:04:24 [lm_classifiers] Counter({'0': 634, '1': 252, '2': 201, '3': 32})
+2023-10-18 14:04:24 [lm_classifiers] Evaluating predictions...
+2023-10-18 14:04:24 [lm_classifiers] 
+                                              prompt prediction gold
+0  Guess the age of the author of the following t...          2    3
+1  Guess the age of the author of the following t...          1    2
+2  Guess the age of the author of the following t...          1    2
+3  Guess the age of the author of the following t...          2    3
+4  Guess the age of the author of the following t...          1    3
+
+2023-10-18 14:04:24 [lm_classifiers] KAPPA:
+         gold   model
+gold   100.00    6.93
+model    6.93  100.00
+
+2023-10-18 14:04:24 [lm_classifiers] ACCURACY:
+         gold   model
+gold   100.00   20.29
+model   20.29  100.00
+
+2023-10-18 14:04:24 [lm_classifiers] F1:
+         gold   model
+gold   100.00   21.11
+model   21.11  100.00
+

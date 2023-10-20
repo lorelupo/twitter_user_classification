@@ -1,0 +1,47 @@
+2023-10-18 11:26:53 [lm_classifiers] Running on GPU device...
+2023-10-18 11:29:52 [lm_classifiers] Encoded labels: 
+tensor([[    3,   632,  4481,     1],
+        [  460,    18,  3166,     1],
+        [12471,  3288,     1,     0],
+        [ 1283,    18,  2915,     1]])
+2023-10-18 11:29:52 [lm_classifiers] Maximum length of the encoded labels: 4
+2023-10-18 11:29:52 [lm_classifiers] instructions/age_classification/bio_hf.txt Bio: Con le ruote per terra . Sentire il mio passo sul sentiero. I Dispersi ed.Falsopiano. Movimento per 21 pianoforti. Capulcu, Voices from Gezi. insolitocinema.it. 
+"""
+Age group:
+2023-10-18 11:30:06 [lm_classifiers] Processed 100 sentences
+2023-10-18 11:30:19 [lm_classifiers] Processed 200 sentences
+2023-10-18 11:30:32 [lm_classifiers] Processed 300 sentences
+2023-10-18 11:30:46 [lm_classifiers] Processed 400 sentences
+2023-10-18 11:30:59 [lm_classifiers] Processed 500 sentences
+2023-10-18 11:31:13 [lm_classifiers] Processed 600 sentences
+2023-10-18 11:31:26 [lm_classifiers] Processed 700 sentences
+2023-10-18 11:31:40 [lm_classifiers] Processed 800 sentences
+2023-10-18 11:31:54 [lm_classifiers] Processed 900 sentences
+2023-10-18 11:32:08 [lm_classifiers] Processed 1000 sentences
+2023-10-18 11:32:21 [lm_classifiers] Processed 1100 sentences
+2023-10-18 11:32:24 [lm_classifiers] Retrieving predictions...
+2023-10-18 11:32:24 [lm_classifiers] Counter({'0': 841, '1': 174, '3': 59, '2': 45})
+2023-10-18 11:32:24 [lm_classifiers] Evaluating predictions...
+2023-10-18 11:32:24 [lm_classifiers] 
+                                              prompt prediction gold
+0  instructions/age_classification/bio_hf.txt Bio...          0    3
+1  instructions/age_classification/bio_hf.txt Bio...          0    2
+2  instructions/age_classification/bio_hf.txt Bio...          1    2
+3  instructions/age_classification/bio_hf.txt Bio...          0    3
+4  instructions/age_classification/bio_hf.txt Bio...          1    3
+
+2023-10-18 11:32:24 [lm_classifiers] KAPPA:
+         gold   model
+gold   100.00    3.79
+model    3.79  100.00
+
+2023-10-18 11:32:24 [lm_classifiers] ACCURACY:
+         gold   model
+gold   100.00   16.18
+model   16.18  100.00
+
+2023-10-18 11:32:24 [lm_classifiers] F1:
+         gold   model
+gold   100.00   16.34
+model   16.34  100.00
+

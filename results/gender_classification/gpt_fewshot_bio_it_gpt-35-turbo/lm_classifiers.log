@@ -1,0 +1,122 @@
+2023-10-17 23:19:24 [lm_classifiers] Classify the gender of the author of these texts (only answer with the label - "male" or "female" - even if uncertain!):
+
+Bio: Ho stabilito il mio record di resistenza alla vita e stranamente mi sento leggera | Musica e poco altro | Non sono emo, è che mi disegnano così.
+Gender: female
+
+Bio: Hello everyone I am presenting my name is Paul Pomo live with the hope that my dream of becoming an actor to achieve my talent !!
+Gender: male
+
+Bio: l’anima della festa secondo astrolandi. PR e comunicatrici secondo il cv.
+Gender: female
+
+Bio: So fare tutto perché so cercare su google come fare le cose. #tuttofare.
+Gender: male
+
+Bio: Anni di Duro Lavoro in 🇮🇹 e all'Estero, da lì Espereinza/e, nonchè, un'innata, E/Simpatia, sono la/e, mia/e, credenziale/i !!!
+Gender: male
+
+Bio: Non uso molto Twitter 🥰 cercherò di esserci anche qui. Se non volete perdere le mie avventure seguitemi su Instagram ❤️.
+Gender: male
+
+Bio: 1996!.. one direction and zayn malik is my life!!
+Gender: female
+
+Bio: Ero perso nel diluvio quando sono stato accecato dalla Luce: da allora sono nato per correre!LostInTheFlood, I was BlindedByTheLight:since then I'm BornToRun.
+Gender: male
+ Bio: Con le ruote per terra . Sentire il mio passo sul sentiero. I Dispersi ed.Falsopiano. Movimento per 21 pianoforti. Capulcu, Voices from Gezi. insolitocinema.it. 
+Gender:
+2023-10-17 23:19:31 [lm_classifiers] Processed 20 sentences
+2023-10-17 23:19:37 [lm_classifiers] Processed 40 sentences
+2023-10-17 23:19:45 [lm_classifiers] Processed 60 sentences
+2023-10-17 23:19:51 [lm_classifiers] Processed 80 sentences
+2023-10-17 23:19:57 [lm_classifiers] Processed 100 sentences
+2023-10-17 23:20:03 [lm_classifiers] Processed 120 sentences
+2023-10-17 23:20:09 [lm_classifiers] Processed 140 sentences
+2023-10-17 23:20:15 [lm_classifiers] Processed 160 sentences
+2023-10-17 23:20:21 [lm_classifiers] Processed 180 sentences
+2023-10-17 23:20:27 [lm_classifiers] Processed 200 sentences
+2023-10-17 23:20:33 [lm_classifiers] Processed 220 sentences
+2023-10-17 23:20:39 [lm_classifiers] Processed 240 sentences
+2023-10-17 23:20:45 [lm_classifiers] Processed 260 sentences
+2023-10-17 23:20:51 [lm_classifiers] Processed 280 sentences
+2023-10-17 23:20:57 [lm_classifiers] Processed 300 sentences
+2023-10-17 23:21:03 [lm_classifiers] Processed 320 sentences
+2023-10-17 23:21:10 [lm_classifiers] Processed 340 sentences
+2023-10-17 23:27:51 [lm_classifiers] Processed 360 sentences
+2023-10-17 23:28:04 [lm_classifiers] Processed 380 sentences
+2023-10-17 23:28:13 [lm_classifiers] Processed 400 sentences
+2023-10-17 23:38:20 [lm_classifiers] Error in generating prediction for prompt n.417: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)
+2023-10-17 23:38:20 [lm_classifiers] Selected default label "male" for prompt n.417.
+2023-10-17 23:38:21 [lm_classifiers] Processed 420 sentences
+2023-10-17 23:38:29 [lm_classifiers] Processed 440 sentences
+2023-10-17 23:38:36 [lm_classifiers] Processed 460 sentences
+2023-10-17 23:48:39 [lm_classifiers] Error in generating prediction for prompt n.468: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)
+2023-10-17 23:48:39 [lm_classifiers] Selected default label "male" for prompt n.468.
+2023-10-17 23:48:44 [lm_classifiers] Processed 480 sentences
+2023-10-17 23:58:51 [lm_classifiers] Error in generating prediction for prompt n.494: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)
+2023-10-17 23:58:51 [lm_classifiers] Selected default label "male" for prompt n.494.
+2023-10-17 23:58:54 [lm_classifiers] Processed 500 sentences
+2023-10-17 23:59:04 [lm_classifiers] Processed 520 sentences
+2023-10-17 23:59:11 [lm_classifiers] Processed 540 sentences
+2023-10-17 23:59:18 [lm_classifiers] Processed 560 sentences
+2023-10-17 23:59:24 [lm_classifiers] Processed 580 sentences
+2023-10-18 00:09:28 [lm_classifiers] Error in generating prediction for prompt n.589: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)
+2023-10-18 00:09:28 [lm_classifiers] Selected default label "male" for prompt n.589.
+2023-10-18 00:09:34 [lm_classifiers] Processed 600 sentences
+2023-10-18 00:09:43 [lm_classifiers] Processed 620 sentences
+2023-10-18 00:09:50 [lm_classifiers] Processed 640 sentences
+2023-10-18 00:09:57 [lm_classifiers] Processed 660 sentences
+2023-10-18 00:10:03 [lm_classifiers] Processed 680 sentences
+2023-10-18 00:10:10 [lm_classifiers] Processed 700 sentences
+2023-10-18 00:10:19 [lm_classifiers] Processed 720 sentences
+2023-10-18 00:20:22 [lm_classifiers] Error in generating prediction for prompt n.728: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)
+2023-10-18 00:20:22 [lm_classifiers] Selected default label "male" for prompt n.728.
+2023-10-18 00:20:25 [lm_classifiers] Processed 740 sentences
+2023-10-18 00:20:33 [lm_classifiers] Processed 760 sentences
+2023-10-18 00:20:40 [lm_classifiers] Processed 780 sentences
+2023-10-18 00:20:49 [lm_classifiers] Processed 800 sentences
+2023-10-18 00:20:55 [lm_classifiers] Processed 820 sentences
+2023-10-18 00:21:01 [lm_classifiers] Processed 840 sentences
+2023-10-18 00:21:08 [lm_classifiers] Processed 860 sentences
+2023-10-18 00:31:15 [lm_classifiers] Error in generating prediction for prompt n.876: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)
+2023-10-18 00:31:15 [lm_classifiers] Selected default label "male" for prompt n.876.
+2023-10-18 00:31:16 [lm_classifiers] Processed 880 sentences
+2023-10-18 00:31:22 [lm_classifiers] Processed 900 sentences
+2023-10-18 00:31:32 [lm_classifiers] Processed 920 sentences
+2023-10-18 00:31:42 [lm_classifiers] Processed 940 sentences
+2023-10-18 00:31:50 [lm_classifiers] Processed 960 sentences
+2023-10-18 00:31:57 [lm_classifiers] Processed 980 sentences
+2023-10-18 00:32:04 [lm_classifiers] Processed 1000 sentences
+2023-10-18 00:32:11 [lm_classifiers] Processed 1020 sentences
+2023-10-18 00:32:17 [lm_classifiers] Processed 1040 sentences
+2023-10-18 00:32:23 [lm_classifiers] Processed 1060 sentences
+2023-10-18 00:32:30 [lm_classifiers] Processed 1080 sentences
+2023-10-18 00:32:37 [lm_classifiers] Processed 1100 sentences
+2023-10-18 00:42:37 [lm_classifiers] Error in generating prediction for prompt n.1099: Request timed out: HTTPSConnectionPool(host='api.openai.com', port=443): Read timed out. (read timeout=600)
+2023-10-18 00:42:37 [lm_classifiers] Selected default label "male" for prompt n.1099.
+2023-10-18 00:42:48 [lm_classifiers] Retrieving predictions...
+2023-10-18 00:42:48 [lm_classifiers] Counter({'male': 930, 'female': 189})
+2023-10-18 00:42:48 [lm_classifiers] Evaluating predictions...
+2023-10-18 00:42:48 [lm_classifiers] 
+                                              prompt prediction    gold
+0  Classify the gender of the author of these tex...       male    male
+1  Classify the gender of the author of these tex...     female  female
+2  Classify the gender of the author of these tex...       male  female
+3  Classify the gender of the author of these tex...       male  female
+4  Classify the gender of the author of these tex...       male    male
+
+2023-10-18 00:42:48 [lm_classifiers] KAPPA:
+         gold   model
+gold   100.00   32.92
+model   32.92  100.00
+
+2023-10-18 00:42:48 [lm_classifiers] ACCURACY:
+         gold   model
+gold   100.00   72.83
+model   72.83  100.00
+
+2023-10-18 00:42:48 [lm_classifiers] F1:
+         gold   model
+gold   100.00   64.94
+model   64.94  100.00
+

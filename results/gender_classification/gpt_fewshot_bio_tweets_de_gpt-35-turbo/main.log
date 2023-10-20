@@ -1,0 +1,5 @@
+2023-10-17 15:40:21 [main] Working on tmp/gender_classification/gpt_fewshot_bio_tweets_de_gpt-35-turbo
+2023-10-17 15:40:21 [main] Evaluation only. Loading raw predictions.
+2023-10-17 15:40:21 [main] Loading raw predictions from: tmp/gender_classification/gpt_fewshot_bio_tweets_de_gpt-35-turbo/raw_predictions.txt
+2023-10-17 15:40:21 [main] Gold labels found. Evaluating predictions.
+2023-10-17 15:40:21 [main] Done!

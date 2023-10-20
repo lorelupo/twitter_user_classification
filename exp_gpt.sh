@@ -37,8 +37,8 @@ max_len_model=2048
 
 python main.py \
     --data_file data/user_classification/data_for_models_test.pkl \
-    --instruction instructions/gender_classification/gpt_fewshot_bio_tweets.txt \
-    --task_file tasks/age_classification/bio_tweets.json \
+    --instruction instructions/gender_classification/gpt_fewshot_bio_it.txt \
+    --task_file tasks/gender_classification/bio.json \
     --prompt_suffix \\nGender: \
     --model_name $model_name \
     --max_len_model $max_len_model \
@@ -46,8 +46,17 @@ python main.py \
 
 python main.py \
     --data_file data/user_classification/data_for_models_test.pkl \
-    --instruction instructions/age_classification/gpt_fewshot_4groups_bio_tweets.txt \
-    --task_file tasks/gender_classification/bio_tweets.json \
+    --instruction instructions/age_classification/gpt_fewshot_4groups_bio_it.txt \
+    --task_file tasks/age_classification/bio.json \
+    --prompt_suffix \\nAge\ group: \
+    --model_name $model_name \
+    --max_len_model $max_len_model \
+    --output_dir tmp
+
+python main.py \
+    --data_file data/user_classification/data_for_models_test.pkl \
+    --instruction instructions/age_classification/gpt_fewshot_4groups_bio_tweets_it.txt \
+    --task_file tasks/age_classification/bio_tweets.json \
     --prompt_suffix \\nAge\ group: \
     --model_name $model_name \
     --max_len_model $max_len_model \

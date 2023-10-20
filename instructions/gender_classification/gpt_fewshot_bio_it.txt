@@ -1,0 +1,25 @@
+Classify the gender of the author of these texts (only answer with the label - "male" or "female" - even if uncertain!):
+
+Bio: Ho stabilito il mio record di resistenza alla vita e stranamente mi sento leggera | Musica e poco altro | Non sono emo, è che mi disegnano così.
+Gender: female
+
+Bio: Hello everyone I am presenting my name is Paul Pomo live with the hope that my dream of becoming an actor to achieve my talent !!
+Gender: male
+
+Bio: l’anima della festa secondo astrolandi. PR e comunicatrici secondo il cv.
+Gender: female
+
+Bio: So fare tutto perché so cercare su google come fare le cose. #tuttofare.
+Gender: male
+
+Bio: Anni di Duro Lavoro in 🇮🇹 e all'Estero, da lì Espereinza/e, nonchè, un'innata, E/Simpatia, sono la/e, mia/e, credenziale/i !!!
+Gender: male
+
+Bio: Non uso molto Twitter 🥰 cercherò di esserci anche qui. Se non volete perdere le mie avventure seguitemi su Instagram ❤️.
+Gender: male
+
+Bio: 1996!.. one direction and zayn malik is my life!!
+Gender: female
+
+Bio: Ero perso nel diluvio quando sono stato accecato dalla Luce: da allora sono nato per correre!LostInTheFlood, I was BlindedByTheLight:since then I'm BornToRun.
+Gender: male

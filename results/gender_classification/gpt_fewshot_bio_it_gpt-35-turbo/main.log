@@ -1,0 +1,4 @@
+2023-10-17 23:19:24 [main] Working on tmp/gender_classification/gpt_fewshot_bio_it_gpt-35-turbo_2
+2023-10-17 23:19:24 [main] Generating raw predictions.
+2023-10-18 00:42:48 [main] Gold labels found. Evaluating predictions.
+2023-10-18 00:42:48 [main] Done!
