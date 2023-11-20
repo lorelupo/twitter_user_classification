@@ -1,19 +1,21 @@
 import openai
 import backoff
-from dotenv import load_dotenv
 import os
 import re
 import time
-import pandas as pd
 import collections 
+from tqdm import tqdm
 import torch
+import torch.nn.functional as F
+import pandas as pd
+import numpy as np
+from dotenv import load_dotenv
 from utils import setup_logging
 from logging import getLogger, StreamHandler
 logger = getLogger(__name__)
 logger_backoff = getLogger('backoff').addHandler(StreamHandler())
 
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
-from sklearn.metrics import cohen_kappa_score, accuracy_score, f1_score
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, AutoModelForSequenceClassification
 
 class LMClassifier:
     def __init__(
@@ -49,7 +51,6 @@ class LMClassifier:
 
     def generate_predictions(self):
         raise NotImplementedError
-    
 
     def range_robust_get_label(self, prediction, bounds):
         # more robust get label function that manages numbers in the returned text and assigns them to the correct range in case of number ranges
@@ -72,7 +73,7 @@ class LMClassifier:
                 return self.labels_dict.get(list(self.labels_dict.keys())[overlaps.index(max(overlaps))])
 
 
-    def retrieve_predicted_labels(self, predictions, prompts, only_dim=None):
+    def retrieve_predicted_labels(self, predictions, prompts=None, only_dim=None):
 
         # convert the predictions to lowercase
         predictions =  list(map(str.lower,predictions))
@@ -114,109 +115,21 @@ class LMClassifier:
         
         # Add the data to a DataFrame
         if self.label_dims == 1:
-            df = pd.DataFrame({'prompt': prompts, 'prediction': predicted_labels})
+            df = pd.DataFrame({'prompt': prompts, 'prediction': predicted_labels}) if prompts else pd.DataFrame({'prediction': predicted_labels})
         elif self.label_dims > 1:
             if only_dim is not None:
                 # retrieve only the predictions for a specific dimension
                 logger.info(f"Retrieved predictions for dimension {only_dim}")
-                df = pd.DataFrame({'prompt': prompts, 'prediction': pd.DataFrame(predicted_labels).to_numpy()[:,only_dim]})
+                df = pd.DataFrame({'prompt': prompts, 'prediction': pd.DataFrame(predicted_labels).to_numpy()[:,only_dim]}) if prompts else pd.DataFrame({'prediction': pd.DataFrame(predicted_labels).to_numpy()[:,only_dim]})
             else:
                 logger.info("Retrieved predictions for all dimensions")
                 df = pd.DataFrame(predicted_labels).fillna(self.default_label)
                 # rename columns to prediction_n
                 df.columns = [f"prediction_dim{i}" for i in range(1, len(df.columns)+1)]
                 # add prompts to df
-                df['prompt'] = prompts
-
+                if prompts:
+                    df['prompt'] = prompts
         return df
-
-    def evaluate_predictions(self, df, gold_labels, aggregated_gold_name='agg'):
-        """
-        Evaluate the predictions of a model, stored in the df, against gold labels.
-        The df contains the following columns:
-        - prompt: the prompt used to generate the prediction
-        - prediction: the prediction. If the model performs multiple classification tasks at a time,
-          the df contains multiple columns named prediction_dim1, prediction_dim2, etc. 
-        """
-
-        # Add the gold labels to df
-        if isinstance(gold_labels, pd.DataFrame):
-            for col in gold_labels.columns:
-                df['gold_' + col] = gold_labels[col]    
-        elif isinstance(gold_labels, list):
-            df['gold'] = gold_labels
-        else:
-            raise ValueError('The gold labels must be either a list or a DataFrame.')
-        
-        logger.info("Evaluating predictions...")
-        logger.info(f"\n{df.head()}\n")
-        
-        # define gold_labels method variable
-        gold_labels = df.filter(regex='^gold', axis=1)
-
-        # retrieve the name of each gold annotation
-        gold_names = [col.split('gold_')[-1] for col in gold_labels.columns]
-
-        # define tables where to store results
-        df_kappa = pd.DataFrame(columns=gold_names+['model'], index=gold_names+['model']).fillna(1.0)
-        df_accuracy = pd.DataFrame(columns=gold_names+['model'], index=gold_names+['model']).fillna(1.0)
-        df_f1 = pd.DataFrame(columns=gold_names+['model'], index=gold_names+['model']).fillna(1.0)
-
-        for i, col in enumerate(gold_labels.columns):
-            # compare agreement with gold labels
-            kappa = cohen_kappa_score(df['prediction'].astype(str), gold_labels[col].astype(str))
-            accuracy = accuracy_score(df['prediction'].astype(str), gold_labels[col].astype(str))
-            f1 = f1_score(df['prediction'].astype(str), gold_labels[col].astype(str), average='macro')
-            # store results
-            df_kappa.loc['model', gold_names[i]] = df_kappa.loc[gold_names[i], 'model'] = kappa
-            df_accuracy.loc['model', gold_names[i]] = df_accuracy.loc[gold_names[i], 'model'] = accuracy
-            df_f1.loc['model', gold_names[i]] = df_f1.loc[gold_names[i], 'model'] = f1
-
-            if len(gold_labels.columns) > 1:
-                for j, col2 in enumerate(gold_labels.columns):
-                    if i < j:
-                        # compare agreement of gold labels with each other
-                        kappa = cohen_kappa_score(gold_labels[col].astype(str), gold_labels[col2].astype(str))
-                        accuracy = accuracy_score(gold_labels[col].astype(str), gold_labels[col2].astype(str))
-                        f1 = f1_score(gold_labels[col].astype(str), gold_labels[col2].astype(str), average='macro')
-                        # store results
-                        df_kappa.loc[gold_names[i], gold_names[j]] = df_kappa.loc[gold_names[j], gold_names[i]] = kappa
-                        df_accuracy.loc[gold_names[i], gold_names[j]] = df_accuracy.loc[gold_names[j], gold_names[i]] = accuracy
-                        df_f1.loc[gold_names[i], gold_names[j]] = df_f1.loc[gold_names[j], gold_names[i]] = f1
-
-        # in case of multiple gold annotations, there could be a column
-        # containing the aggregated annotation (computed with tools like MACE)
-        non_agg_names = [name for name in gold_names if aggregated_gold_name not in name]
-
-        # compute average agreement between gold annotations (except the aggregated one)
-        if len(gold_labels.columns) > 1:
-            df_kappa['mean_non_agg'] = df_kappa[non_agg_names].mean(axis=1)
-            df_accuracy['mean_non_agg'] = df_accuracy[non_agg_names].mean(axis=1) 
-            df_f1['mean_non_agg'] = df_f1[non_agg_names].mean(axis=1)
-            for name in non_agg_names:
-                # correct for humans fully agreeing with themselves
-                df_kappa.mean_non_agg[name] = (df_kappa[non_agg_names].loc[name].sum() - 1.0) / (len(non_agg_names) - 1.0)
-                df_accuracy.mean_non_agg[name] = (df_accuracy[non_agg_names].loc[name].sum() - 1.0) / (len(non_agg_names) - 1.0)
-                df_f1.mean_non_agg[name] = (df_f1[non_agg_names].loc[name].sum() - 1.0) / (len(non_agg_names) - 1.0)
-        
-        # print info
-        logger.info(f"KAPPA:\n{df_kappa.round(4)*100}\n")
-        if len(gold_labels.columns) > 1:
-            logger.info(f"Annotators' mean kappa: {100*df_kappa.mean_non_agg[:-1].mean():.2f}")
-            logger.info(f"Model's mean kappa: {100*df_kappa.model[:-1].mean():.2f}")
-
-        logger.info(f"ACCURACY:\n{df_accuracy.round(4)*100}\n")
-        if len(gold_labels.columns) > 1:
-            logger.info(f"Annotators' mean accuracy: {100*df_accuracy.mean_non_agg[:-1].mean():.2f}") 
-            logger.info(f"Model's mean accuracy: {100*df_accuracy.model[:-1].mean():.2f}")
-
-        logger.info(f"F1:\n{df_f1.round(4)*100}\n")
-
-        if len(gold_labels.columns) > 1:
-            logger.info(f"Annotators' mean F1: {100*df_f1.mean_non_agg[:-1].mean():.2f}")
-            logger.info(f"Model's mean F1: {100*df_f1.model[:-1].mean():.2f}")
-
-        return df_kappa, df_accuracy, df_f1
 
 class GPTClassifier(LMClassifier):
     def __init__(
@@ -357,7 +270,7 @@ class GPTClassifier(LMClassifier):
 
         return prompts, predictions
 
-class HFClassifier(LMClassifier):
+class HFLMClassifier():
     def __init__(
             self,
             labels_dict,
@@ -375,7 +288,7 @@ class HFClassifier(LMClassifier):
         super().__init__(labels_dict, label_dims, default_label, instruction, prompt_suffix, model_name, max_len_model, output_dir, **kwargs)
 
         # Set device
-        self.device = 'GPU' if torch.cuda.is_available() else 'CPU'
+        self.device = 'gpu' if torch.cuda.is_available() else 'mps' if torch.backends.mps.is_available() else None
         logger.info(f'Running on {self.device} device...')
 
         self.tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir=cache_dir)
@@ -460,3 +373,96 @@ class HFClassifier(LMClassifier):
         """
 
         return prompts, predictions
+    
+class HFClassifier:
+    def __init__(
+            self,
+            model_name,
+            max_len_model,
+            batch_size=32,
+            output_dir=None,
+            cache_dir=None,
+            log_to_file=True
+            ):
+        
+        setup_logging(os.path.basename(__file__).split('.')[0], logger, output_dir if log_to_file else None)
+
+        self.max_len_model = max_len_model
+        self.model_name = model_name
+        self.batch_size = batch_size
+        self.dataloader = None
+                
+        # Set device
+        self.device = 'gpu' if torch.cuda.is_available() else 'mps' if torch.backends.mps.is_available() else None
+        logger.info(f'Running on {self.device} device...')
+
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir=cache_dir)
+        self.model = AutoModelForSequenceClassification.from_pretrained(model_name, torch_dtype="auto", device_map="auto", cache_dir=cache_dir)
+
+    @staticmethod
+    def batch_tokenize(X_text, tokenizer, max_length=512, batch_size=64):
+
+        # Dictionary to hold tokenized batches
+        encodings = {}
+
+        # Calculate the number of batches needed
+        num_batches = len(X_text) // batch_size + int(len(X_text) % batch_size > 0)
+
+        # Iterate over the data in batches
+        for i in range(num_batches):
+            batch_start = i * batch_size
+            batch_end = min(len(X_text), (i + 1) * batch_size)
+
+            # Tokenize the current batch of texts
+            batch_encodings = tokenizer.batch_encode_plus(
+                list(X_text[batch_start:batch_end]),
+                padding='max_length',
+                truncation=True,
+                max_length=max_length
+            )
+
+            # Merge the batch tokenizations into the main dictionary
+            for key, val in batch_encodings.items():
+                if key not in encodings:
+                    encodings[key] = []
+                encodings[key].extend(val)
+
+        return encodings
+
+    def generate_predictions(self, input_texts):
+
+        #TODO add input_ids when saving predictions to file, scores...
+
+        logger.info(f'Tokenizing input texts...')
+        encodings = HFClassifier.batch_tokenize(input_texts, self.tokenizer)
+
+        # Set the model to evaluation mode
+        self.model.eval()
+        
+        # store predicted probs
+        predictions = []
+        class_probs = []
+        # Running inference on the model
+        logger.info(f'Running model on batches...')
+        with torch.no_grad():
+            for i in tqdm(range(0, len(encodings['input_ids']), self.batch_size)):
+
+                # Get the current batch and send it to GPU
+                input_ids = torch.tensor(encodings['input_ids'][i:i+self.batch_size]).to(self.device)
+                attention_mask = torch.tensor(encodings['attention_mask'][i:i+self.batch_size]).to(self.device)
+                
+                # Forward pass
+                outputs = self.model(input_ids, attention_mask=attention_mask)
+                logits = outputs['logits']
+
+                # Get the predicted class labels
+                predicted_labels = torch.argmax(logits, dim=1)
+                predictions.extend(predicted_labels.cpu().numpy())
+
+                # Convert logits to probabilities
+                probabilities = F.softmax(logits, dim=1)
+                class_probs.extend(probabilities.cpu().numpy().tolist())
+
+        self.predictions = np.array(predictions)
+        
+        return self.predictions, np.array(class_probs)

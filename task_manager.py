@@ -47,35 +47,38 @@ class TaskManager:
             df = pd.read_pickle(path_data)
         else:
             raise NotImplementedError
+        # Set the index to the user_id
+        df.set_index('user_id', inplace=True)
         # check if there are any missing values (shouldn't be the case)
         if df.isnull().values.any():
             raise ValueError('The dataframe contains missing values')
         # Read each bio and tweets concatenation, splitting them by \n and
         # joining by '. ' if sentences don't already end with a dot, else join by ' '
         if include_bio:
-            bios = df.masked_bio.apply(lambda x: [text + '.' if not (text.endswith('.') or text.endswith('!') or text.endswith('?') or text.endswith(';')) else text for text in x.split('\n')]).apply(lambda x: ' '.join(x)).apply(lambda x: re.sub('\r', '', x)).tolist()
+            df.masked_bio = df.masked_bio.apply(lambda x: [text + '.' if not (text.endswith('.') or text.endswith('!') or text.endswith('?') or text.endswith(';')) else text for text in x.split('\n')]).apply(lambda x: ' '.join(x)).apply(lambda x: re.sub('\r', '', x)).tolist()
         if include_tweets:
-            tweets = df.long_text.apply(lambda x: [text + '.' if not (text.endswith('.') or text.endswith('!') or text.endswith('?') or text.endswith(';')) else text for text in x.split('\n')]).apply(lambda x: ' '.join(x)).apply(lambda x: re.sub('\r', '', x)).tolist()
+            df.long_text = df.long_text.apply(lambda x: [text + '.' if not (text.endswith('.') or text.endswith('!') or text.endswith('?') or text.endswith(';')) else text for text in x.split('\n')]).apply(lambda x: ' '.join(x)).apply(lambda x: re.sub('\r', '', x)).tolist()
         if include_bio and include_tweets:
             # Join each tweet and bio by 'Bio: ' and 'Tweets: '
-            input_texts = ['Bio: ' + bio + '\nTweets: ' + tweet for bio, tweet in zip(bios, tweets)]
+            input_texts = df.apply(lambda x: 'Bio: ' + x.masked_bio + '\nTweets: ' + x.long_text, axis=1)
         elif include_bio:
-            input_texts = ['Bio: ' + bio for bio in bios]
+            input_texts = df.apply(lambda x: 'Bio: ' + x.masked_bio, axis=1)
         elif include_tweets:
-            input_texts = ['Tweets: ' + tweet for tweet in tweets]
+            input_texts = df.apply(lambda x: 'Tweets: ' + x.long_text, axis=1)
 
         # Read the gold labels
         if label_name == 'is_male':
-            gold_labels = df[label_name].tolist()
-            gold_labels = ['male' if label == True else 'female' for label in gold_labels]
+            gold_labels = df[[label_name]]
+            gold_labels[label_name] = gold_labels[label_name].apply(lambda x: 'male' if x==True else 'female')
         if label_name == 'age':
-            gold_labels = df[label_name].astype(int).tolist()
+            gold_labels = df[[label_name]]
+            gold_labels[label_name] = gold_labels[label_name].astype('int')
         if label_name == 'age_interval':
             # define age classes
             age_intervals = [0, 19, 30, 40, 100]
             age_labels = [0, 1, 2, 3]
             # Discretize the 'age' column into four classes
-            gold_labels = pd.cut(df['age'], bins=age_intervals, labels=age_labels, right=False).astype('str').tolist()
+            gold_labels = pd.cut(df['age'], bins=age_intervals, labels=age_labels, right=False).astype('str')
         
         return input_texts, gold_labels
 

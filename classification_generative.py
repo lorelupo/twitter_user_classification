@@ -7,7 +7,7 @@ The text annotations produced by the LLM are then evaluated against the gold lab
 
 Example usage:
 
-python main.py \
+python classification_generative.py \
     --data_file data/user_classification/data_for_models_test.pkl \
     --instruction instructions/gender_classification/bio.txt \
     --task_file tasks/gender_classification/bio.json \
@@ -26,8 +26,10 @@ import pandas as pd
 
 from utils import incremental_path, setup_logging
 
-from lm_classifiers import HFClassifier, GPTClassifier, LMClassifier
 from task_manager import TaskManager
+from classifiers import HFLMClassifier, GPTClassifier, LMClassifier
+from evaluate import evaluate_predictions
+
 
 from logging import getLogger
 logger = getLogger(__name__)
@@ -118,7 +120,7 @@ def classify_and_evaluate(
                 log_to_file=log_to_file,
                 )
     else:
-        classifier = HFClassifier(
+        classifier = HFLMClassifier(
             labels_dict=tm.labels,
             label_dims=tm.label_dims,
             default_label=tm.default_label,
@@ -167,7 +169,7 @@ def classify_and_evaluate(
             df_predicted_labels = pd.DataFrame(predictions, columns=['prediction'])
 
         # Evaluate predictions
-        df_kappa, df_accuracy, df_f1 = classifier.evaluate_predictions(
+        evaluate_predictions(
             df=df_predicted_labels,
             gold_labels=gold_labels,
             aggregated_gold_name=aggregated_gold_name
@@ -175,9 +177,6 @@ def classify_and_evaluate(
 
         # Save results
         df_predicted_labels.to_csv(os.path.join(output_dir, f'pred.tsv'), sep="\t", index=True)
-        df_kappa.to_csv(os.path.join(output_dir, f'kap.tsv'), sep="\t", index=True)
-        df_accuracy.to_csv(os.path.join(output_dir, f'acc.tsv'), sep="\t", index=True)
-        df_f1.to_csv(os.path.join(output_dir, f'f1.tsv'), sep="\t", index=True)
     
     logger.info(f'Done!')
 
