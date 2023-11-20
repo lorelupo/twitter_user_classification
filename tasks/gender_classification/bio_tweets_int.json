@@ -1,0 +1,7 @@
+{
+    "labels": {
+        "1": "male",
+        "0": "female"
+        },
+    "read_function": "twitter_features_gender_bio_tweets"
+}

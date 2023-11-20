@@ -9,7 +9,7 @@
             "name": "hf gender",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/main.py",
+            "program": "${workspaceFolder}/classification_generative.py",
             "console": "integratedTerminal",
             "args": [
                 "--data_file", "data/user_classification/data_for_models_test.pkl",
@@ -27,7 +27,7 @@
             "name": "gpt age",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/main.py",
+            "program": "${workspaceFolder}/classification_generative.py",
             "console": "integratedTerminal",
             "args": [
                 "--data_file", "data/user_classification/data_for_models_test_toy.pkl",
@@ -38,6 +38,23 @@
                 "--max_len_model", "2048",
                 "--output_dir", "tmp",
                 "--evaluation_only", "True",
+            ]
+        },
+        {
+            "name": "xml gender",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/classification_discriminative.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--data_file", "data/user_classification/data_for_models_test.pkl",
+                "--task_file", "tasks/gender_classification/bio_tweets_int.json",
+                "--model_name", "lorelupo/twitter-xlm-gender-prediction-italian",
+                "--max_len_model", "512",
+                "--output_dir", "tmp",
+                "--batch_size", "32",
+                "--cache_dir", "~/.cache/huggingface/hub/ ",
+                "--evaluation_only", "False",
             ]
         },
     ]
