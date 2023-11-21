@@ -38,7 +38,7 @@ In this section, we describe a use case: zero-shot age classification with Flan-
     }
     ```
     The data-reading function needs to be defined in [task_manager.py](task_manager.py) as a static method. See the methods that are already defined as an example.
-3. Run...
+3. Run the model with the 
 
 
 
