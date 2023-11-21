@@ -64,26 +64,3 @@ def setup_logging(module_name:str, logger:logging.Logger, logdir:str=None, verbo
 
     # Set the handlers for the logger
     logger.handlers = handlers
-
-    # # activate logging
-    # logging.basicConfig(
-    #     level=logging.INFO if verbose else logging.WARNING,
-    #     format="%(asctime)s [%(module)s] %(message)s",
-    #     datefmt='%Y-%m-%d %H:%M:%S',
-    #     handlers=[
-    #         logging.StreamHandler()
-    #     ]
-    # )
-    # if logdir is not None:
-    #         logging.basicConfig(
-    #             handlers=[
-    #                 logging.StreamHandler(),
-    #                 logging.FileHandler(os.path.join(logdir, f'{module_name}.log'), mode='w')
-    #             ]
-    #     )
-    # else:
-    #     logging.basicConfig(
-    #         handlers=[
-    #             logging.StreamHandler()
-    #         ]
-    #     )

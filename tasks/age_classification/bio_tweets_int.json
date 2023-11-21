@@ -1,0 +1,9 @@
+{
+    "labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "3"
+        },
+    "read_function": "twitter_features_age_interval_bio_tweets"
+}

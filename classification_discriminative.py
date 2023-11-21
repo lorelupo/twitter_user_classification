@@ -1,4 +1,3 @@
-
 import os
 import pandas as pd
 from fire import Fire
@@ -8,7 +7,6 @@ from evaluate import evaluate_predictions
 from utils import incremental_path, setup_logging
 from logging import getLogger
 logger = getLogger(__name__)
-
 
 def classify_and_evaluate(
         data_file,
@@ -21,6 +19,20 @@ def classify_and_evaluate(
         evaluation_only=False,
         log_to_file=True,
         ):
+    """
+    Params:
+        data_file: path to the data file
+        task_file: path to the task file
+        model_name: name of the model to use (for HuggingFace models, use the full name, e.g. "username/model_name")
+        max_len_model: maximum input length of the model
+        output_dir: path to the output directory
+        batch_size: batch size for the model
+        cache_dir: path to the cache directory, where to store/load the HF model
+        evaluation_only: if True, only evaluate the predictions that are already present in the output_dir
+    Output:
+        predictions.csv: csv file with the predictions and the probabilities for each class
+        *.log: log files with the logs from the predictions process and the evaluation of the predictions
+    """
 
     # Duplicate the output to stdout and a log file
     # strip points and slashes from the model name
@@ -59,10 +71,10 @@ def classify_and_evaluate(
         df_preds = pd.DataFrame(predictions, columns=['prediction'])
         df_probs = pd.DataFrame(class_probs, columns=probs_columns_names)
         df = pd.concat([df_preds, df_probs], axis=1).set_index(input_texts.index)
-        df.to_csv(f'{output_dir}/predictions.csv')
+        df.to_csv(os.path.join(output_dir, f'predictions.csv'))
     else:
         # load predictions
-        df_preds = pd.read_csv(f'{output_dir}/predictions.csv')[['prediction']]
+        df_preds = pd.read_csv(os.path.join(output_dir, f'predictions.csv'))[['prediction']]
     
     # Evaluate
     logger.info(f'Evaluating...')

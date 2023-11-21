@@ -180,9 +180,6 @@ class GPTClassifier(LMClassifier):
             input_texts,
             sleep_after_step=0,
             ):
-        """
-        Generate predictions for the input texts using an OpenAI language model.
-        """
 
         prompts = []
         predictions = []
@@ -358,19 +355,6 @@ class HFLMClassifier():
 
             # Clear the cache after each iteration
             torch.cuda.empty_cache()
-
-        """
-        # Lowercase the predictions
-        predictions =  list(map(str.lower,predictions))
-
-        # TODO: Map the predictions to the labels (or empty string if label not found)
-        # for now, just use the predictions as is. If only a substring equals a label, it does not get mapped to the label.
-        predictions = [self.labels_dict.get(word) for word in predictions]
-
-
-        # Add the data to the DataFrame
-        df = pd.DataFrame({'time': time, 'prompt': prompts, 'prediction': predictions})
-        """
 
         return prompts, predictions
     

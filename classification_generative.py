@@ -1,36 +1,10 @@
-'''
-This code exploits large language models (LLMs) as annotators.
-Given an annotation task defined by a set of input texts, a set of possible labels,
-and an instruction for the LLM, the code generates a prompt matching the input text and the instruction,
-and uses an LLM to generate a label prediction for text. 
-The text annotations produced by the LLM are then evaluated against the gold labels using accuracy and the Cohen's kappa metric.
-
-Example usage:
-
-python classification_generative.py \
-    --data_file data/user_classification/data_for_models_test.pkl \
-    --instruction instructions/gender_classification/bio.txt \
-    --task_file tasks/gender_classification/bio.json \
-    --prompt_suffix "\\n\"\"\"\\nGender:" \
-    --model_name google/flan-t5-small \
-    --max_len_model 512 \
-    --output_dir tmp \
-    --cache_dir ~/.cache/huggingface/hub/ \
-    --evaluation_only False
-'''
-
 import os
 import fire
-
 import pandas as pd 
-
 from utils import incremental_path, setup_logging
-
 from task_manager import TaskManager
 from classifiers import HFLMClassifier, GPTClassifier, LMClassifier
 from evaluate import evaluate_predictions
-
-
 from logging import getLogger
 logger = getLogger(__name__)
 
@@ -73,6 +47,28 @@ def classify_and_evaluate(
         log_to_file=True,
         raw_predictions_good=False,
         ):
+    """
+    Params:
+        data_file: path to the data file
+        task_file: path to the task file
+        instruction: path to the instruction file
+        prompt_suffix: suffix to add to the prompt
+        model_name: name of the model to use (for HuggingFace models, use the full name, e.g. "username/model_name")
+        max_len_model: maximum input length of the model
+        output_dir: path to the output directory
+        cache_dir: path to the cache directory, where to store/load the HF model
+        evaluation_only: if True, only evaluate the predictions that are already present in the output_dir
+        only_dim: if not None, only evaluate the predictions for the given dimension
+        gpt_system_role: if model_name is an OpenAI model, this is the role of the system in the conversation
+        sleep_after_step: if model_name is an OpenAI model, this is the number of seconds to sleep after each step (might be useful in case of API limits)
+        aggregated_gold_name: name of the aggregated gold label, if any
+        log_to_file: if True, log to a file in the output_dir
+        raw_predictions_good: if True, the raw predictions are already formatted as the final labels and thus don't need to be further processed
+    Output:
+        raw_predictions.txt: txt file with the raw predictions
+        predictions.csv: csv file with the predictions and the probabilities for each class
+        *.log: log files with the logs from the predictions process and the evaluation of the predictions
+    """
 
     # Duplicate the output to stdout and a log file
     # strip points and slashes from the model name
@@ -176,7 +172,7 @@ def classify_and_evaluate(
             )
 
         # Save results
-        df_predicted_labels.to_csv(os.path.join(output_dir, f'pred.tsv'), sep="\t", index=True)
+        df_predicted_labels.to_csv(os.path.join(output_dir, f'predictions.csv'))
     
     logger.info(f'Done!')
 

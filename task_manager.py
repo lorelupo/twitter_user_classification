@@ -4,8 +4,7 @@ import pandas as pd
 
 class TaskManager:
     """
-    Utility class for reading data tables (.csv, .tsv, ...) and returning the input texts and gold labels
-    for an LLM classifier.
+    Utility class for defining labels and reading data tables (.csv, .tsv, ...) and returning the input texts and gold labels
     """
 
     def __init__(self, task_file, logdir=None):
