@@ -3,9 +3,13 @@
 
 Classify you twitter users' gender and age based on their profile information and tweets, using either fine-tuned classifiers or generative language models (LM) in the zero-shot and few-shot setting.
 
-## Requirements and Installation
+## Install
 
-TODO
+```
+git clone git@github.com:lorelupo/twitter_user_classification.git
+cd twitter_user_classification
+pip install -r ./requirements.txt
+```
 
 ## Gender and Age Classification
 
