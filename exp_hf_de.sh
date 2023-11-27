@@ -15,7 +15,7 @@ max_len_model=512
 #     --model_name $model_name \
 #     --max_len_model $max_len_model \
 #     --output_dir tmp \
-#     --cache_dir /scratch/mentalism/cache/ \
+#     --cache_dir /data/mentalism/cache/ \
 #     --evaluation_only False
 
 # CUDA_VISIBLE_DEVICES=0 python main.py \
@@ -26,7 +26,7 @@ max_len_model=512
 #     --model_name $model_name \
 #     --max_len_model $max_len_model \
 #     --output_dir tmp_de \
-#     --cache_dir /scratch/mentalism/cache/ \
+#     --cache_dir /data/mentalism/cache/ \
 #     --evaluation_only False
 
 CUDA_VISIBLE_DEVICES=1 python main.py \
@@ -37,4 +37,4 @@ CUDA_VISIBLE_DEVICES=1 python main.py \
     --model_name $model_name \
     --max_len_model $max_len_model \
     --output_dir tmp_de \
-    --cache_dir /scratch/mentalism/cache/
+    --cache_dir /data/mentalism/cache/

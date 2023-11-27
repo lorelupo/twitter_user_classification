@@ -3,7 +3,7 @@ Example usage:
 
 python find_gender_in_names.py \
     --name_gender_table data/gender_classification/gender_firstnames_ITA_processed.csv \
-    --db_file /scratch/mentalism/data/database/MENTALISM_update.db \
+    --db_file /data/mentalism/data/database/MENTALISM_update.db \
     --table_name user_geocoded \
     --new_table_name user_geocoded \
     --chunk_size 50000 \

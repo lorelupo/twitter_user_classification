@@ -16,7 +16,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
     --model_name $model_name \
     --max_len_model $max_len_model \
     --output_dir tmp \
-    --cache_dir /scratch/mentalism/cache/
+    --cache_dir /data/mentalism/cache/
 
 CUDA_VISIBLE_DEVICES=0 python main.py \
     --data_file data/user_classification/data_for_models_test.pkl \
@@ -26,7 +26,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
     --model_name $model_name \
     --max_len_model $max_len_model \
     --output_dir tmp \
-    --cache_dir /scratch/mentalism/cache/
+    --cache_dir /data/mentalism/cache/
 
 CUDA_VISIBLE_DEVICES=0 python main.py \
     --data_file data/user_classification/data_for_models_test.pkl \
@@ -36,7 +36,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
     --model_name $model_name \
     --max_len_model $max_len_model \
     --output_dir tmp \
-    --cache_dir /scratch/mentalism/cache/
+    --cache_dir /data/mentalism/cache/
 
 CUDA_VISIBLE_DEVICES=0 python main.py \
     --data_file data/user_classification/data_for_models_test.pkl \
@@ -46,4 +46,4 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
     --model_name $model_name \
     --max_len_model $max_len_model \
     --output_dir tmp \
-    --cache_dir /scratch/mentalism/cache/
+    --cache_dir /data/mentalism/cache/

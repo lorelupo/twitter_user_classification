@@ -21,14 +21,14 @@ python enrich_user_id.py \
 --fout .
 
 python enrich_user_id.py \
-    --user_ids_file /scratch/mentalism/data/user_classification/user_age_gender_location.pkl \
-    --db_file /scratch/mentalism/data/database/MENTALISM.db \
+    --user_ids_file /data/mentalism/data/user_classification/user_age_gender_location.pkl \
+    --db_file /data/mentalism/data/database/MENTALISM.db \
     --table_name tweets \
     --data_chunk_size 10000000 \
     --user_ids_chunk_size 11000 \
     --max_rows_per_user 100 \
     --remove_columns None \
-    --fout /scratch/mentalism/data/user_classification/tweets_by_user_id_v2
+    --fout /data/mentalism/data/user_classification/tweets_by_user_id_v2
 
 db=/g100_work/IscrC_mental/data/database/MENTALISM.db
 python enrich_user_id.py \
@@ -40,7 +40,7 @@ python enrich_user_id.py \
     --user_ids_chunk_size 100000 \
     --max_rows_per_user 100 \
     --remove_columns None \
-    --fout /scratch/mentalism/data/user_classification/tweets_regioncoded_users
+    --fout /data/mentalism/data/user_classification/tweets_regioncoded_users
 """
 import fire
 import os

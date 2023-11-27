@@ -36,7 +36,7 @@ python classification_generative.py \
     --model_name google/flan-t5-xxl \
     --max_len_model 512 \
     --output_dir tmp \
-    --cache_dir /scratch/mentalism/cache/
+    --cache_dir /data/mentalism/cache/
 ```
 
 Or with generative LMs by OpenAI, in a zero/few-shot setting:
