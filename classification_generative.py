@@ -79,7 +79,7 @@ def classify_and_evaluate(
     else:
         instruction_name = instruction.split(" ")[0]
     output_base_dir = f"{output_dir}/{instruction_name}_{model_name_short}"
-    output_dir = incremental_path(output_base_dir) if not evaluation_only else output_base_dir
+    output_dir = incremental_path(output_base_dir, select_last=evaluation_only)
 
     setup_logging(os.path.basename(__file__).split('.')[0], logger, output_dir if log_to_file else None)
 
@@ -130,7 +130,7 @@ def classify_and_evaluate(
             )
 
     if evaluation_only:
-        logger.info(f'Evaluation only. Loading raw predictions.')
+        logger.info(f'Evaluation only:')
         # Load raw predictions
         logger.info(f'Loading raw predictions from: {os.path.join(output_dir, "raw_predictions.txt")}')
         with open(os.path.join(output_dir, 'raw_predictions.txt'), 'r') as f:
@@ -138,7 +138,7 @@ def classify_and_evaluate(
         prompts = None
 
     else:
-        logger.info(f'Generating raw predictions.')
+        logger.info(f'Generating annotations:')
         # Generate raw predictions
         if model_name in OPENAI_MODELS:
             prompts, predictions = classifier.generate_predictions(input_texts, sleep_after_step=sleep_after_step)

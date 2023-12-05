@@ -8,7 +8,7 @@ python enrich_user_id.py \
     --data_chunk_size 10000000 \
     --user_ids_chunk_size 11000 \
     --max_rows_per_user 100 \
-    --fout .
+    --outdir .
 
 python enrich_user_id.py \
 --user_ids_file ../mentalism/sentemb/mydata/database/myMENTALISM.db \
@@ -18,7 +18,7 @@ python enrich_user_id.py \
 --data_chunk_size 10000000 \
 --user_ids_chunk_size 11000 \
 --max_rows_per_user 100 \
---fout .
+--outdir .
 
 python enrich_user_id.py \
     --user_ids_file /data/mentalism/data/user_classification/user_age_gender_location.pkl \
@@ -28,7 +28,7 @@ python enrich_user_id.py \
     --user_ids_chunk_size 11000 \
     --max_rows_per_user 100 \
     --remove_columns None \
-    --fout /data/mentalism/data/user_classification/tweets_by_user_id_v2
+    --outdir /data/mentalism/data/user_classification/tweets_by_user_id_v2
 
 db=/g100_work/IscrC_mental/data/database/MENTALISM.db
 python enrich_user_id.py \
@@ -40,7 +40,7 @@ python enrich_user_id.py \
     --user_ids_chunk_size 100000 \
     --max_rows_per_user 100 \
     --remove_columns None \
-    --fout /data/mentalism/data/user_classification/tweets_regioncoded_users
+    --outdir /data/mentalism/data/user_classification/tweets_regioncoded_users
 """
 import fire
 import os
@@ -96,7 +96,7 @@ def get_info_by_user_ids(
         column_names=TABLE_COLUMN_NAMES,
         remove_columns=None,
         user_ids_table='user_geocoded',
-        fout='.',
+        outdir='.',
         ):
     
     # Read the user ids to retrieve
@@ -127,7 +127,9 @@ def get_info_by_user_ids(
     # Initialize an empty DataFrame
     result_df = pd.DataFrame()
 
-    n_saved_files=0
+    # Create the output directory if it does not exist
+    os.makedirs(outdir, exist_ok=True)
+
     # Loop through user_ids_to_retrieve in chunks
     for n_chunk, user_ids_to_retrieve in enumerate(user_ids_to_retrieve_chunks):
         # Loop through the data in chunks
@@ -159,7 +161,12 @@ def get_info_by_user_ids(
 
         # Save results to pickle file
         print(f'Saving {len(result_df)} tweets to user_tweets_chunk{n_chunk}.pkl')
-        result_df.to_pickle(os.path.join(fout, f'user_tweets_chunk{n_chunk}.pkl'))
+        try:
+            result_df.to_pickle(os.path.join(outdir, f'user_tweets_chunk{n_chunk}.pkl'))
+        except:
+            # save to current directory
+            result_df.to_pickle(f'./user_tweets_chunk{n_chunk}.pkl')
+
         # Reset the result DataFrame
         result_df = pd.DataFrame()
 

@@ -13,28 +13,27 @@ def evaluate_predictions(df, gold_labels, aggregated_gold_name='agg', logdir=Non
 
     # Add the gold labels to df
     if isinstance(gold_labels, pd.DataFrame):
-        for col in gold_labels.columns:
-            df['gold_' + col] = gold_labels[col].values    
+        df = pd.concat([df, gold_labels], axis=1)   
     elif isinstance(gold_labels, list):
         df['gold'] = gold_labels
     else:
         raise ValueError('The gold labels must be either a list or a DataFrame.')
     
-    logger.info("Evaluating predictions...")
+    logger.info("Evaluating the predictions contained in the following dataset:")
     logger.info(f"\n{df.head()}\n")
     
     # define gold_labels method variable
     gold_labels = df.filter(regex='^gold', axis=1)
 
     # retrieve the name of each gold annotation
-    gold_names = [col.split('gold_')[-1] for col in gold_labels.columns]
+    gold_names = gold_labels.columns.tolist()
 
     # define tables where to store results
     df_kappa = pd.DataFrame(columns=gold_names+['model'], index=gold_names+['model']).fillna(1.0)
     df_accuracy = pd.DataFrame(columns=gold_names+['model'], index=gold_names+['model']).fillna(1.0)
     df_f1 = pd.DataFrame(columns=gold_names+['model'], index=gold_names+['model']).fillna(1.0)
 
-    for i, col in enumerate(gold_labels.columns):
+    for i, col in enumerate(gold_names):
         # compare agreement with gold labels
         kappa = cohen_kappa_score(df['prediction'].astype(str), gold_labels[col].astype(str))
         accuracy = accuracy_score(df['prediction'].astype(str), gold_labels[col].astype(str))
@@ -44,13 +43,13 @@ def evaluate_predictions(df, gold_labels, aggregated_gold_name='agg', logdir=Non
         else:
             f1 = f1_score(df['prediction'].astype(str), gold_labels[col].astype(str), average='macro')
         
-        if len(gold_labels.columns) > 1:
+        if len(gold_names) > 1:
             # store results if multiple gold annotations
             df_kappa.loc['model', gold_names[i]] = df_kappa.loc[gold_names[i], 'model'] = kappa
             df_accuracy.loc['model', gold_names[i]] = df_accuracy.loc[gold_names[i], 'model'] = accuracy
             df_f1.loc['model', gold_names[i]] = df_f1.loc[gold_names[i], 'model'] = f1
 
-            for j, col2 in enumerate(gold_labels.columns):
+            for j, col2 in enumerate(gold_names):
                 if i < j:
                     # compare agreement of gold labels with each other
                     kappa = cohen_kappa_score(gold_labels[col].astype(str), gold_labels[col2].astype(str))
@@ -61,33 +60,33 @@ def evaluate_predictions(df, gold_labels, aggregated_gold_name='agg', logdir=Non
                     df_accuracy.loc[gold_names[i], gold_names[j]] = df_accuracy.loc[gold_names[j], gold_names[i]] = accuracy
                     df_f1.loc[gold_names[i], gold_names[j]] = df_f1.loc[gold_names[j], gold_names[i]] = f1
 
-    # in case of multiple gold annotations, there could be a column
-    # containing the aggregated annotation (computed with tools like MACE)
-    non_agg_names = [name for name in gold_names if aggregated_gold_name not in name]
+    # In case of multiple gold annotations, there could be a column
+    # containing their aggregation computed with majority voting or tools like MACE - https://github.com/dirkhovy/MACE)
+    non_agg_gold_names = [name for name in gold_names if aggregated_gold_name not in name]
 
-    # compute average agreement between gold annotations (except the aggregated one)
-    if len(gold_labels.columns) > 1:
-        df_kappa['mean_non_agg'] = df_kappa[non_agg_names].mean(axis=1)
-        df_accuracy['mean_non_agg'] = df_accuracy[non_agg_names].mean(axis=1) 
-        df_f1['mean_non_agg'] = df_f1[non_agg_names].mean(axis=1)
-        for name in non_agg_names:
-            # correct for humans fully agreeing with themselves
-            df_kappa.mean_non_agg[name] = (df_kappa[non_agg_names].loc[name].sum() - 1.0) / (len(non_agg_names) - 1.0)
-            df_accuracy.mean_non_agg[name] = (df_accuracy[non_agg_names].loc[name].sum() - 1.0) / (len(non_agg_names) - 1.0)
-            df_f1.mean_non_agg[name] = (df_f1[non_agg_names].loc[name].sum() - 1.0) / (len(non_agg_names) - 1.0)
+    # compute average agreement between gold annotations (except the aggregated annotation)
+    if len(gold_names) > 1:
+        df_kappa['mean_non_agg'] = df_kappa[non_agg_gold_names].mean(axis=1)
+        df_accuracy['mean_non_agg'] = df_accuracy[non_agg_gold_names].mean(axis=1) 
+        df_f1['mean_non_agg'] = df_f1[non_agg_gold_names].mean(axis=1)
+        for name in non_agg_gold_names:
+            # correct for gold labels fully agreeing with themselves
+            df_kappa.mean_non_agg[name] = (df_kappa[non_agg_gold_names].loc[name].sum() - 1.0) / (len(non_agg_gold_names) - 1.0)
+            df_accuracy.mean_non_agg[name] = (df_accuracy[non_agg_gold_names].loc[name].sum() - 1.0) / (len(non_agg_gold_names) - 1.0)
+            df_f1.mean_non_agg[name] = (df_f1[non_agg_gold_names].loc[name].sum() - 1.0) / (len(non_agg_gold_names) - 1.0)
     
     # print info
-    if len(gold_labels.columns) > 1:
+    if len(gold_names) > 1:
         logger.info(f"KAPPA:\n{df_kappa.round(4)*100}\n")
-        logger.info(f"Annotators' mean kappa: {100*df_kappa.mean_non_agg[:-1].mean():.2f}")
+        logger.info(f"Golds' mean kappa: {100*df_kappa.mean_non_agg[:-1].mean():.2f}")
         logger.info(f"Model's mean kappa: {100*df_kappa.model[:-1].mean():.2f}")
 
         logger.info(f"ACCURACY:\n{df_accuracy.round(4)*100}\n")
-        logger.info(f"Annotators' mean accuracy: {100*df_accuracy.mean_non_agg[:-1].mean():.2f}") 
+        logger.info(f"Golds' mean accuracy: {100*df_accuracy.mean_non_agg[:-1].mean():.2f}") 
         logger.info(f"Model's mean accuracy: {100*df_accuracy.model[:-1].mean():.2f}")
 
         logger.info(f"F1:\n{df_f1.round(4)*100}\n")
-        logger.info(f"Annotators' mean F1: {100*df_f1.mean_non_agg[:-1].mean():.2f}")
+        logger.info(f"Golds' mean F1: {100*df_f1.mean_non_agg[:-1].mean():.2f}")
         logger.info(f"Model's mean F1: {100*df_f1.model[:-1].mean():.2f}")
     
         return df_kappa, df_accuracy, df_f1

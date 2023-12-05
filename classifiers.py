@@ -62,12 +62,12 @@ class LMClassifier:
             if (numbers[-1]>bounds[-1][-1]) or (numbers[0]<bounds[0][0]):
                 return self.labels_dict.get(self.default_label)
             elif len(numbers)==1:
-                #check which list in bounds the number belongs to
+                # check which list in bounds the number belongs to
                 for i, bound in enumerate(bounds):
                     if numbers[0] in bound:
                         return self.labels_dict.get(list(self.labels_dict.keys())[i])
             elif len(numbers)>1:
-                #just use the first 2 numbers
+                # just use the first 2 numbers
                 # check the overlap of the range between numbers with bounds
                 overlaps = [len(set(range(numbers[0],numbers[1])).intersection(set(bound))) for bound in bounds]
                 return self.labels_dict.get(list(self.labels_dict.keys())[overlaps.index(max(overlaps))])
@@ -130,6 +130,7 @@ class LMClassifier:
                 if prompts:
                     df['prompt'] = prompts
         return df
+
 
 class GPTClassifier(LMClassifier):
     def __init__(
@@ -292,9 +293,6 @@ class HFLMClassifier():
         self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name, torch_dtype="auto", device_map="auto", cache_dir=cache_dir)
 
     def generate_predictions(self, input_texts):
-        """
-        Generate predictions for the input texts using an HuggingFace language model.
-        """
 
         # Encode the labels
         encoded_labels = self.tokenizer(list(self.labels_dict.keys()), padding=True, truncation=True, return_tensors="pt")['input_ids']
