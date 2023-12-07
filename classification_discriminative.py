@@ -79,10 +79,12 @@ def classify_and_evaluate(
     # Evaluate
     logger.info(f'Evaluating...')
     df_preds['prediction'] = df_preds['prediction'].astype(str).apply(lambda x: tm.labels[x])
-    evaluate_predictions(df_preds, gold_labels, logdir=output_dir)
+    if gold_labels is not None:
+        evaluate_predictions(df_preds, gold_labels, logdir=output_dir)
 
 if __name__ == "__main__":
     Fire(classify_and_evaluate)
+
 
 
 

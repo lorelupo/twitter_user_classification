@@ -47,3 +47,26 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
     --max_len_model $max_len_model \
     --output_dir tmp \
     --cache_dir /data/mentalism/cache/
+
+
+model_name=lorelupo/twitter-xlm-large-user-age-5g-it-extra
+max_len_model=512
+CUDA_VISIBLE_DEVICES=2 python classification_discriminative.py \
+    --data_file /data/mentalism/data/user_classification/user_regioncoded_features_sample.pkl \
+    --task_file tasks/age_classification/5g_extra_nogold.json \
+    --model_name $model_name \
+    --max_len_model $max_len_model \
+    --output_dir tmp \
+    --batch_size 32 \
+    --cache_dir /data/mentalism/cache/huggingface/
+
+model_name=lorelupo/twitter-xlm-large-user-gender-it-extra
+max_len_model=512
+CUDA_VISIBLE_DEVICES=3 python classification_discriminative.py \
+    --data_file /data/mentalism/data/user_classification/user_regioncoded_features_sample.pkl \
+    --task_file tasks/gender_classification/extra_int_nogold.json \
+    --model_name $model_name \
+    --max_len_model $max_len_model \
+    --output_dir tmp \
+    --batch_size 32 \
+    --cache_dir /data/mentalism/cache/huggingface/

@@ -17,6 +17,7 @@ class TaskManager:
             "twitter_features_age_bio_tweets": TaskManager.twitter_features_age_bio_tweets,
             "twitter_features_age_interval_bio": TaskManager.twitter_features_age_interval_bio,
             "twitter_features_age_interval_bio_tweets": TaskManager.twitter_features_age_interval_bio_tweets,
+            "twitter_features_extra_nogold": TaskManager.twitter_features_extra_nogold,
         }
 
         # read task specs from json task_file
@@ -80,6 +81,39 @@ class TaskManager:
             gold_labels = pd.cut(df['age'], bins=age_intervals, labels=age_labels, right=False).astype('str')
         
         return input_texts, gold_labels
+
+    @staticmethod
+    def twitter_features_extra_nogold(
+        path_data: str,
+        ):
+
+        # Read the pickle dataframe
+        if path_data.endswith('.pkl'):
+            df = pd.read_pickle(path_data)
+        else:
+            raise NotImplementedError
+
+        # Set the index to the user_id
+        df.set_index('user_id', inplace=True)
+        # create input text
+        # Separating text and numbers with a space
+        df['username_sep'] = df['username'].str.replace(r'([a-zA-Z])(\d)', r'\1 \2').\
+                            str.replace(r'(\d)([a-zA-Z])', r'\1 \2')
+        # concat info
+        df['input_texts']  = 'NAME:' + ' "' + df['full_name'] + '". ' +\
+                            'USERNAME:' + ' "'+  df['username_sep'] + '". ' + \
+                            'JOINED:' + ' "' + df['join_year'].astype(str) + '". ' +\
+                            'TWEETS:' + ' "' + df['tweets'].astype(str) + '". ' + \
+                            'FOLLOWING:' + ' "' + df['following'].astype(str) + '". ' +\
+                            'FOLLOWERS:' + ' "' + df['followers'].astype(str) + '". ' + \
+                            'BIO:' + ' "' + df['bio'] + '". ' + \
+                            'TEXT:' + ' "' + df['long_text'] + '".'
+
+        # check if there are any missing values in input texts (shouldn't be the case)
+        if df.input_texts.isnull().values.any():
+            raise ValueError('The dataframe contains missing input_texts')
+
+        return df['input_texts'], None
 
     @staticmethod
     def twitter_features_gender_bio(path):

@@ -286,7 +286,7 @@ class HFLMClassifier():
         super().__init__(labels_dict, label_dims, default_label, instruction, prompt_suffix, model_name, max_len_model, output_dir, **kwargs)
 
         # Set device
-        self.device = 'gpu' if torch.cuda.is_available() else 'mps' if torch.backends.mps.is_available() else None
+        self.device = 'cuda' if torch.cuda.is_available() else 'mps' if torch.backends.mps.is_available() else None
         logger.info(f'Running on {self.device} device...')
 
         self.tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir=cache_dir)
@@ -375,7 +375,7 @@ class HFClassifier:
         self.dataloader = None
                 
         # Set device
-        self.device = 'gpu' if torch.cuda.is_available() else 'mps' if torch.backends.mps.is_available() else None
+        self.device = 'cuda' if torch.cuda.is_available() else 'mps' if torch.backends.mps.is_available() else None
         logger.info(f'Running on {self.device} device...')
 
         self.tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir=cache_dir)
