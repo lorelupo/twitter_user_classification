@@ -1,4 +1,5 @@
 .env
 notebooks/quick_tests.ipynb
+notebooks/create_paper_figures.ipynb
 quick_tests.ipynb
 tmp

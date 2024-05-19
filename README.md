@@ -3,6 +3,10 @@
 
 Classify you twitter users' gender and age based on their profile information and tweets, using either fine-tuned classifiers or generative language models (LM) in the zero-shot and few-shot setting.
 
+- [dataset](https://huggingface.co/datasets/lorelupo/dadit_italian_twitter)
+- [models](https://huggingface.co/lorelupo)
+- [paper](https://arxiv.org/abs/2403.05700)
+
 ## Install
 
 ```
@@ -87,4 +91,11 @@ The data-reading function needs to be defined in the [task_manager.py](task_mana
 
 ## Citation
 
-TODO
+@misc{lupo2024dadit,
+      title={DADIT: A Dataset for Demographic Classification of Italian Twitter Users and a Comparison of Prediction Methods}, 
+      author={Lorenzo Lupo and Paul Bose and Mahyar Habibi and Dirk Hovy and Carlo Schwarz},
+      year={2024},
+      eprint={2403.05700},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
