@@ -21,7 +21,7 @@ Classification of users' gender and age attributes can be done with either [one 
 
 ```
 python classification_discriminative.py \
-    --data_file data/user_classification/data_for_models_test.pkl \
+    --data_file data/user_classification/data_for_models_test.parquet \
     --task_file tasks/gender_classification/bio_tweets_int.json \
     --model_name lorelupo/twitter-xlm-gender-prediction-italian \
     --max_len_model 512 \
@@ -33,7 +33,7 @@ Or with generative LMs hosted on HuggingFace, in a zero/few-shot setting:
 
 ```
 python classification_generative.py \
-    --data_file data/user_classification/data_for_models_test.pkl \
+    --data_file data/user_classification/data_for_models_test.parquet \
     --task_file tasks/gender_classification/bio_tweets.json \
     --instruction instructions/gender_classification/bio_tweets_hf.txt \
     --prompt_suffix \\n\"\"\"\\nGender: \
@@ -47,7 +47,7 @@ Or with generative LMs by OpenAI, in a zero/few-shot setting:
 
 ```
 python classification_generative.py \
-    --data_file data/user_classification/data_for_models_test.pkl \
+    --data_file data/user_classification/data_for_models_test.parquet \
     --task_file tasks/gender_classification/bio_tweets.json \
     --instruction instructions/gender_classification/gpt_fewshot_bio_tweets_it.txt \
     --prompt_suffix \\nGender: \
@@ -90,7 +90,7 @@ It is possible to define new classification tasks by creating a new `.json` file
 
 In the labels dictionary, the keys are the labels in the format output by the classifier, while the values are the labels as represented in your data. In this case, a classifier outputs an integer referring to the age group of the Twitter user.
 
-The data-reading function needs to be defined in the [task_manager.py](task_manager.py) as a static method. For instance, see the definition of [twitter_features_age_interval_bio_tweets](twitter_features_age_interval_bio_tweets.py?plain=1#L105), a utility function that reads [data/user_classification/data_for_models_test.pkl](data/user_classification/data_for_models_test.pkl) and creates a string containing both users' bio and tweets as a feature for the classifier.
+The data-reading function needs to be defined in the [task_manager.py](task_manager.py) as a static method. For instance, see the definition of [twitter_features_age_interval_bio_tweets](twitter_features_age_interval_bio_tweets.py?plain=1#L105), a utility function that reads [data/user_classification/data_for_models_test.parquet](data/user_classification/data_for_models_test.parquet) and creates a string containing both users' bio and tweets as a feature for the classifier.
 
 ## Citation
 
