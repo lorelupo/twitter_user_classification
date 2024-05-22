@@ -45,8 +45,11 @@ class TaskManager:
         # Read the pickle dataframe
         if path_data.endswith('.pkl'):
             df = pd.read_pickle(path_data)
+        elif path_data.endswith('.parquet'):
+            df = pd.read_parquet(path_data)
         else:
-            raise NotImplementedError
+            raise ValueError('The file format is not supported. Please use .pkl or .parquet files')
+        
         # Set the index to the user_id
         df.set_index('user_id', inplace=True)
         # check if there are any missing values (shouldn't be the case)
@@ -90,8 +93,10 @@ class TaskManager:
         # Read the pickle dataframe
         if path_data.endswith('.pkl'):
             df = pd.read_pickle(path_data)
+        elif path_data.endswith('.parquet'):
+            df = pd.read_parquet(path_data)
         else:
-            raise NotImplementedError
+            raise ValueError('The file format is not supported. Please use .pkl or .parquet files')
 
         # Set the index to the user_id
         df.set_index('user_id', inplace=True)
