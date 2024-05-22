@@ -59,13 +59,16 @@ python classification_generative.py \
 The  available tasks are:
     
 - `gender_classification/`:
-    - `bio`: only the users' bio
-    - `bio_tweeets`: both the users' bio and tweets
-    - `bio_tweeets_int`: : both the users' bio and tweets, when the labels output by the classifier are the integer number of the class (e.g., 0/1 instead of "male"/"female")
+    - `bio`: only the users' bio is used as input feature
+    - `bio_tweeets`: both the users' bio and tweets are used
+    - `bio_tweeets_int`: both the users' bio and tweets are used, and the labels output by the classifier are the integer number of the class instead of the name of the class (e.g., 0/1 instead of "male"/"female")
+    - `extra_int_nogold`: features used are bio and tweets, plus join year, number of tweets, number of accounts followed, number of followers.
+
 - `age_classification`, classifying users' age in 4 groups given the following information as features: 
-    - `bio`: only the users' bio
-    - `bio_tweeets`: both the users' bio and tweets
+    - `bio`: only the users' bio is used as input feature
+    - `bio_tweeets`: both the users' bio and tweets are used
     - `bio_tweeets_int`: both the users' bio and tweets, when the labels output by the classifier are the integer number of the class (e.g., 0/1/2/3 instead of "0-19"/"20-29"/"30-39"/"40-100")
+    - `extra_int`: features used are bio and tweets, plus join year, number of tweets, number of accounts followed, number of followers.
 
 Check the folder [instructions](instructions) to see available instructions for generative LMs and add new ones.
 
@@ -91,6 +94,7 @@ The data-reading function needs to be defined in the [task_manager.py](task_mana
 
 ## Citation
 
+```
 @misc{lupo2024dadit,
       title={DADIT: A Dataset for Demographic Classification of Italian Twitter Users and a Comparison of Prediction Methods}, 
       author={Lorenzo Lupo and Paul Bose and Mahyar Habibi and Dirk Hovy and Carlo Schwarz},
@@ -99,3 +103,4 @@ The data-reading function needs to be defined in the [task_manager.py](task_mana
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
+```
