@@ -95,12 +95,26 @@ The data-reading function needs to be defined in the [task_manager.py](task_mana
 ## Citation
 
 ```
-@misc{lupo2024dadit,
-      title={DADIT: A Dataset for Demographic Classification of Italian Twitter Users and a Comparison of Prediction Methods}, 
-      author={Lorenzo Lupo and Paul Bose and Mahyar Habibi and Dirk Hovy and Carlo Schwarz},
-      year={2024},
-      eprint={2403.05700},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{lupo-etal-2024-dadit-dataset,
+    title = "{DADIT}: A Dataset for Demographic Classification of {I}talian {T}witter Users and a Comparison of Prediction Methods",
+    author = "Lupo, Lorenzo  and
+      Bose, Paul  and
+      Habibi, Mahyar  and
+      Hovy, Dirk  and
+      Schwarz, Carlo",
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.386",
+    pages = "4322--4332",
+    abstract = "Social scientists increasingly use demographically stratified social media data to study the attitudes, beliefs, and behavior of the general public. To facilitate such analyses, we construct, validate, and release publicly the representative DADIT dataset of 30M tweets of 20k Italian Twitter users, along with their bios and profile pictures. We enrich the user data with high-quality labels for gender, age, and location. DADIT enables us to train and compare the performance of various state-of-the-art models for the prediction of the gender and age of social media users. In particular, we investigate if tweets contain valuable information for the task, since popular classifiers like M3 don{'}t leverage them. Our best XLM-based classifier improves upon the commonly used competitor M3 by up to 53{\%} F1. Especially for age prediction, classifiers profit from including tweets as features. We also confirm these findings on a German test set.",
 }
 ```
